@@ -46,9 +46,9 @@ npm run build    # static site in dist/
 
 ## Deploy on GitHub Pages
 
-The workflow in `.github/workflows/deploy.yml` builds and publishes the site on every push to
-`main` (and to `claude/**` branches). One-time setup: **Settings → Pages → Build and deployment →
-Source: GitHub Actions**. The site will be served at `https://<user>.github.io/<repo>/`.
+The workflow in `.github/workflows/deploy.yml` builds the site and publishes it to the `gh-pages` branch on every push to
+`main` (and to `claude/**` branches). Pages serves the `gh-pages` branch:
+**https://alessandriluca.github.io/Drecine2.0/**
 
 ## License
 

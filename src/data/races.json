@@ -1,0 +1,4267 @@
+[
+ {
+  "id": "dragonborn",
+  "name": "Dragonborn",
+  "description": "Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or a tail. Shaped by the dragons themselves, they originally hatched from dragon eggs, combining the best attributes of dragons and humanoids.",
+  "age": "Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {},
+  "languages": {
+   "fixed": [
+    "Common",
+    "Draconic"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Draconic Ancestry",
+    "text": "You are distantly related to a particular kind of dragon. Choose a type of dragon from the below list; this determines the damage and area of your breath weapon, and the type of resistance you gain."
+   },
+   {
+    "name": "Breath Weapon",
+    "text": "You can use your action to exhale destructive energy. It deals damage in an area according to your ancestry. When you use your breath weapon, all creatures in the area must make a saving throw, the type of which is determined by your ancestry. The DC of this saving throw is 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increase to 3d6 at 6th level, 4d6 at 11th, and 5d6 at 16th level. After using your breath weapon, you cannot use it again until you complete a short or long rest."
+   }
+  ],
+  "subraces": [
+   {
+    "name": "Standard Dragonborn",
+    "asi": {
+     "fixed": {
+      "STR": 2,
+      "CHA": 1
+     }
+    },
+    "traits": [
+     {
+      "name": "Damage Resistance",
+      "text": "You have resistance to the damage type associated with your draconic ancestry."
+     }
+    ]
+   },
+   {
+    "name": "Chromatic Dragonborn",
+    "asi": {
+     "flexible": true
+    },
+    "traits": [
+     {
+      "name": "Chromatic Ancestry",
+      "text": "You trace your ancestry to a chromatic dragon (black, blue, green, red or white), granting you a special magical affinity. This determines the damage type of your breath weapon and resistance."
+     }
+    ]
+   },
+   {
+    "name": "Draconblood",
+    "asi": {
+     "fixed": {
+      "INT": 2,
+      "CHA": 1
+     }
+    },
+    "darkvision": 60,
+    "traits": [
+     {
+      "name": "Darkvision",
+      "text": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light."
+     },
+     {
+      "name": "Forceful Presence",
+      "text": "When you make an Intimidation or Persuasion check, you can do so with advantage once per long rest."
+     }
+    ]
+   },
+   {
+    "name": "Ravenite",
+    "asi": {
+     "fixed": {
+      "STR": 2,
+      "CON": 1
+     }
+    },
+    "darkvision": 60,
+    "traits": [
+     {
+      "name": "Darkvision",
+      "text": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light."
+     },
+     {
+      "name": "Vengeful Assault",
+      "text": "When you take damage from a creature in range of a weapon you are wielding, you can use your reaction to make an attack against that creature. You can do this once per short or long rest."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dwarf",
+  "name": "Dwarf",
+  "description": "Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. They stand between 4 and 5 feet tall but are so broad and compact that they can weigh as much as a human.",
+  "age": "Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 25
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "CON": 2
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Dwarvish"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [
+   "poison"
+  ],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Dwarven Resilience",
+    "text": "You have advantage on saving throws against poison, and you have resistance against poison damage."
+   },
+   {
+    "name": "Dwarven Combat Training",
+    "text": "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
+   },
+   {
+    "name": "Tool Proficiency",
+    "text": "You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools."
+   },
+   {
+    "name": "Stonecunning",
+    "text": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+   }
+  ],
+  "weapons": [
+   "Battleaxe",
+   "Handaxe",
+   "Light hammer",
+   "Warhammer"
+  ],
+  "subraces": [
+   {
+    "name": "Hill Dwarf",
+    "asi": {
+     "fixed": {
+      "WIS": 1
+     }
+    },
+    "hpPerLevel": 1,
+    "traits": [
+     {
+      "name": "Dwarven Toughness",
+      "text": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+     }
+    ]
+   },
+   {
+    "name": "Mountain Dwarf",
+    "asi": {
+     "fixed": {
+      "STR": 2
+     }
+    },
+    "armor": [
+     "Light armor",
+     "Medium armor"
+    ],
+    "traits": [
+     {
+      "name": "Dwarven Armor Training",
+      "text": "You have proficiency with light and medium armor."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "duergar",
+  "name": "Duergar",
+  "description": "The gray dwarves, or duergar, live deep in the Underdark. After delving deeper than any other dwarves, they were enslaved by mind flayers for eons. Although they eventually won their freedom, these grim, ashen-skinned dwarves now take slaves of their own and are as tyrannical as their former masters. Physically similar to other dwarves in some ways, duergar are wiry and lean, with black eyes and bald heads, with the males growing long, unkempt, gray beards. Duergar value toil above all else. Showing emotions other than grim determination or wrath is frowned on in their culture, but they can sometimes seem joyful when at work. They have the typical dwarven appreciation for order, tradition, and impeccable craftsmanship, but their goods are purely utilitarian, disdaining aesthetic or artistic value.",
+  "age": "Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 25
+  },
+  "darkvision": 120,
+  "asi": {
+   "fixed": {
+    "CON": 2,
+    "STR": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Dwarvish"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [
+   "poison"
+  ],
+  "traits": [
+   {
+    "name": "Superior Darkvision",
+    "text": "You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Dwarven Resilience",
+    "text": "You have advantage on saving throws against poison, and you have resistance against poison damage."
+   },
+   {
+    "name": "Duergar Resilience",
+    "text": "You have advantage on saving throws against illusions and against being charmed or paralyzed."
+   },
+   {
+    "name": "Dwarven Combat Training",
+    "text": "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
+   },
+   {
+    "name": "Tool Proficiency",
+    "text": "You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools."
+   },
+   {
+    "name": "Stonecunning",
+    "text": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+   },
+   {
+    "name": "Duergar Magic",
+    "text": "When you reach 3rd level, you can cast the Enlarge/Reduce spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the Invisibility spell on yourself once with this trait. You don't need material components for either spell, and you can't cast them while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast these spells with this trait when you finish a long rest. Intelligence is your spellcasting ability for these spells."
+   },
+   {
+    "name": "Sunlight Sensitivity",
+    "text": "You have disadvantage on Attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct."
+   }
+  ],
+  "weapons": [
+   "Battleaxe",
+   "Handaxe",
+   "Light hammer",
+   "Warhammer"
+  ]
+ },
+ {
+  "id": "orc",
+  "name": "Orc",
+  "description": "Savage and fearless, orc tribes are ever in search of elves, dwarves, and humans to destroy. Motivated by their hatred of the civilized races of the world and their need to satisfy the demands of their deities, the orcs know that if they fight well and bring glory to their tribe, Gruumsh will call them home.",
+  "age": "Orcs reach adulthood at age 12 and live up to 50 years.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "STR": 2,
+    "CON": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Orc"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": {
+    "n": 2,
+    "from": [
+     "Animal Handling",
+     "Insight",
+     "Intimidation",
+     "Medicine",
+     "Nature",
+     "Perception",
+     "Survival"
+    ]
+   }
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Aggressive",
+    "text": "As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started."
+   },
+   {
+    "name": "Primal Intuition",
+    "text": "You have proficiency in two of the following skills of your choice: Animal Handling, Insight, Intimidation, Medicine, Nature, Perception, and Survival."
+   },
+   {
+    "name": "Powerful Build",
+    "text": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+   }
+  ]
+ },
+ {
+  "id": "half-orc",
+  "name": "Half-Orc",
+  "description": "When alliances between humans and orcs are sealed by marriages, half-orcs are born. Some half-orcs rise to become proud chiefs of orc tribes, their human blood giving them an edge over their full-blooded orc rivals. Some venture into the world to prove their worth among humans and other more civilized races. Many of these become adventurers, achieving greatness for their mighty deeds and notoriety for their barbaric customs and savage fury.",
+  "age": "Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "STR": 2,
+    "CON": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Orc"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [
+    "Intimidation"
+   ],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Menacing",
+    "text": "You gain proficiency in the Intimidation skill."
+   },
+   {
+    "name": "Relentless Endurance",
+    "text": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+   },
+   {
+    "name": "Savage Attacks",
+    "text": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+   }
+  ]
+ },
+ {
+  "id": "human",
+  "name": "Human",
+  "description": "In the reckonings of most worlds, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. Perhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that's why they build their mighty empires on the foundation of conquest and trade. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.",
+  "age": "Humans reach adulthood in their late teens and live less than a century.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {},
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Skills",
+    "text": "You gain proficiency in one skill of your choice."
+   },
+   {
+    "name": "Feat",
+    "text": "You gain one Feat of your choice. (Look at the Feat lists in the Other file)"
+   }
+  ],
+  "subraces": [
+   {
+    "name": "Standard Human",
+    "asi": {
+     "fixed": {
+      "STR": 1,
+      "DEX": 1,
+      "CON": 1,
+      "INT": 1,
+      "WIS": 1,
+      "CHA": 1
+     }
+    },
+    "traits": []
+   },
+   {
+    "name": "Variant Human",
+    "asi": {
+     "choose": [
+      {
+       "count": 2,
+       "amount": 1
+      }
+     ]
+    },
+    "skills": {
+     "fixed": [],
+     "choose": {
+      "n": 1,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    "feat": 1,
+    "traits": [
+     {
+      "name": "Skills",
+      "text": "You gain proficiency in one skill of your choice."
+     },
+     {
+      "name": "Feat",
+      "text": "You gain one feat of your choice."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "elf",
+  "name": "Elf",
+  "description": "Elves are a magical people of otherworldly grace, living in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry.",
+  "age": "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "DEX": 2
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Elvish"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [
+    "Perception"
+   ],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Fey Ancestry",
+    "text": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+   },
+   {
+    "name": "Trance",
+    "text": "Elves do not sleep. Instead they meditate deeply, remaining semi-conscious, for 4 hours a day. The Common word for this meditation is \"trance.\" While meditating, you dream after a fashion; such dreams are actually mental exercises that have become reflexive after years of practice. After resting in this way, you gain the same benefit a human would from 8 hours of sleep."
+   },
+   {
+    "name": "Keen Senses",
+    "text": "You have proficiency in the Perception skill."
+   }
+  ],
+  "subraces": [
+   {
+    "name": "High Elf",
+    "asi": {
+     "fixed": {
+      "INT": 1
+     }
+    },
+    "languages": {
+     "fixed": [],
+     "choose": 1
+    },
+    "cantrip": "Wizard",
+    "weapons": [
+     "Longsword",
+     "Shortsword",
+     "Shortbow",
+     "Longbow"
+    ],
+    "traits": [
+     {
+      "name": "Cantrip",
+      "text": "You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for it."
+     },
+     {
+      "name": "Elf Weapon Training",
+      "text": "You have proficiency with the longsword, shortsword, shortbow, and longbow."
+     },
+     {
+      "name": "Extra Language",
+      "text": "You can read, speak, and write one additional language of your choice."
+     }
+    ]
+   },
+   {
+    "name": "Wood Elf",
+    "asi": {
+     "fixed": {
+      "WIS": 1
+     }
+    },
+    "speed": {
+     "walk": 35
+    },
+    "weapons": [
+     "Longsword",
+     "Shortsword",
+     "Shortbow",
+     "Longbow"
+    ],
+    "traits": [
+     {
+      "name": "Elf Weapon Training",
+      "text": "You have proficiency with the longsword, shortsword, shortbow, and longbow."
+     },
+     {
+      "name": "Fleet of Foot",
+      "text": "Your base walking speed increases to 35 feet."
+     },
+     {
+      "name": "Mask of the Wild",
+      "text": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+     }
+    ]
+   },
+   {
+    "name": "Dark Elf (Drow)",
+    "asi": {
+     "fixed": {
+      "CHA": 1
+     }
+    },
+    "darkvision": 120,
+    "weapons": [
+     "Rapier",
+     "Shortsword",
+     "Hand crossbow"
+    ],
+    "traits": [
+     {
+      "name": "Superior Darkvision",
+      "text": "Your darkvision has a range of 120 feet, instead of 60."
+     },
+     {
+      "name": "Sunlight Sensitivity",
+      "text": "You have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of the attack, or whatever you are trying to perceive is in direct sunlight."
+     },
+     {
+      "name": "Drow Magic",
+      "text": "You know the Dancing Lights cantrip. At 3rd level you can cast Faerie Fire once per long rest; at 5th level you can also cast Darkness once per long rest. Charisma is your spellcasting ability for these spells."
+     },
+     {
+      "name": "Drow Weapon Training",
+      "text": "You have proficiency with rapiers, shortswords, and hand crossbows."
+     }
+    ]
+   },
+   {
+    "name": "Pallid Elf",
+    "asi": {
+     "fixed": {
+      "WIS": 1
+     }
+    },
+    "traits": [
+     {
+      "name": "Incisive Sense",
+      "text": "You have advantage on Investigation and Insight checks."
+     },
+     {
+      "name": "Blessing of the Moonweaver",
+      "text": "You know the Light cantrip. At 3rd level you can cast Sleep once per long rest; at 5th level you can cast Invisibility (self only) once per long rest. No material components are required. Wisdom is your spellcasting ability for these spells."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "eladrin",
+  "name": "Eladrin",
+  "description": "Eladrin are elves of the Feywild, a realm of perilous beauty and boundless magic. Using that magic, eladrin can step from one place to another in the blink of an eye, and each eladrin resonates with emotions captured in the Feywild in the form of seasons — affinities that affect the eladrin's mood and appearance. An eladrin's season can change, though some remain in one season forever. Choose your season or roll on the Eladrin Seasons table. Your Trance trait lets you change your season. Like other elves, eladrin can live to be over 750 years old.",
+  "age": "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "DEX": 2,
+    "CHA": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Elvish"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [
+    "Perception"
+   ],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Fey Ancestry",
+    "text": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+   },
+   {
+    "name": "Trance",
+    "text": "Elves do not sleep. Instead they meditate deeply, remaining semi-conscious, for 4 hours a day. The Common word for this meditation is \"trance.\" While meditating, you dream after a fashion; such dreams are actually mental exercises that have become reflexive after years of practice. After resting in this way, you gain the same benefit a human would from 8 hours of sleep. After Trance you can change your season"
+   },
+   {
+    "name": "Keen Senses",
+    "text": "You have proficiency in the Perception skill."
+   },
+   {
+    "name": "Fey Step",
+    "text": "As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest. When you reach 3rd level, your Fey Step gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Charisma modifier. The effects are as follows: Autumn: Immediately after you use your Fey Step, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or be charmed by you for 1 minute, or until you or your companions deal any damage to it. Winter: When you use your Fey Step, one creature of your choice that you can see within 5 feet of you before you teleport must succeed on a Wisdom saving throw or be frightened of you until the end of your next turn. Spring: When you use your Fey Step, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet of you. Summer: Immediately after you use your Fey Step, each creature of your choice that you can see within 5 feet of you takes fire damage equal to your Charisma modifier (minimum of 1 damage)."
+   }
+  ]
+ },
+ {
+  "id": "sea-elf",
+  "name": "Sea Elf",
+  "description": "Sea elves fell in love with the wild beauty of the ocean in the earliest days of the multiverse. While other elves traveled from realm to realm, the sea elves navigated the deepest currents and explored the waters across a hundred worlds. Today, they live in small, hidden communities in the ocean shallows and on the Elemental Plane of Water.",
+  "age": "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "DEX": 2,
+    "CON": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Elvish",
+    "Aquan"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [
+    "Perception"
+   ],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Fey Ancestry",
+    "text": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+   },
+   {
+    "name": "Trance",
+    "text": "Elves do not sleep. Instead they meditate deeply, remaining semi-conscious, for 4 hours a day. The Common word for this meditation is \"trance.\" While meditating, you dream after a fashion; such dreams are actually mental exercises that have become reflexive after years of practice. After resting in this way, you gain the same benefit a human would from 8 hours of sleep."
+   },
+   {
+    "name": "Keen Senses",
+    "text": "You have proficiency in the Perception skill."
+   },
+   {
+    "name": "Sea Elf Training",
+    "text": "You have proficiency with the spear, trident, light crossbow, and net."
+   },
+   {
+    "name": "Child of the Sea",
+    "text": "You have a swimming speed of 30 feet, and you can breathe air and water."
+   },
+   {
+    "name": "Friend of the Sea",
+    "text": "Using gestures and sounds, you can communicate simple ideas with any beast that has an innate swimming speed."
+   }
+  ],
+  "weapons": [
+   "Spear",
+   "Trident",
+   "Light crossbow",
+   "Net"
+  ]
+ },
+ {
+  "id": "shadar-kai",
+  "name": "Shadar-kai",
+  "description": "Sworn to the Raven Queen's service, the mysterious shadar-kai venture into the Material Plane from the Shadowfell to advance her will. Once they were fey like the rest of their elven kin; now they exist in a strange state between life and death. Eladrin and shadar-kai are like reflections of each other: one bursting with emotion, the other nearly devoid of it.",
+  "age": "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "DEX": 2,
+    "CON": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Elvish"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [
+    "Perception"
+   ],
+   "choose": null
+  },
+  "resistances": [
+   "necrotic"
+  ],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Fey Ancestry",
+    "text": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+   },
+   {
+    "name": "Trance",
+    "text": "Elves do not sleep. Instead they meditate deeply, remaining semi-conscious, for 4 hours a day. The Common word for this meditation is \"trance.\" While meditating, you dream after a fashion; such dreams are actually mental exercises that have become reflexive after years of practice. After resting in this way, you gain the same benefit a human would from 8 hours of sleep."
+   },
+   {
+    "name": "Keen Senses",
+    "text": "You have proficiency in the Perception skill."
+   },
+   {
+    "name": "Necrotic Resistance",
+    "text": "You have resistance to necrotic damage."
+   },
+   {
+    "name": "Blessing of the Raven Queen",
+    "text": "As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest. Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent."
+   }
+  ]
+ },
+ {
+  "id": "astral-elf",
+  "name": "Astral Elf",
+  "description": "Long ago, groups of elves ventured from the Feywild to the Astral Plane to be closer to their gods. Life in the Silver Void has imbued their souls with a spark of divine light. That light manifests as a starry gleam in an astral elf's eyes. Because nothing ages on the Astral Plane, astral elves who inhabit that plane can be very old, and their longevity gives them an unusual perspective on the passage of time. Some are prone to melancholy, while others might display an absence of feeling. Many look for creative ways to occupy themselves. Whether they choose to live in quiet contemplation or strike out to explore the reaches of the multiverse, astral elves tend to see things through the lens of time as having little or no meaning to them. Astral elves who don't dwell in the Astral Plane can live to be more than 750 years old.",
+  "age": null,
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "flexible": true
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [
+    "Perception"
+   ],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Astral Fire",
+    "text": "You know one of the following cantrips of your choice: Dancing Lights, Light, or Sacred Flame. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race)."
+   },
+   {
+    "name": "Darkvision",
+    "text": "You can see dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in darkness only as shades of gray."
+   },
+   {
+    "name": "Fey Ancestry",
+    "text": "You have advantage on saving throws you make to avoid or end the charmed condition on yourself."
+   },
+   {
+    "name": "Keen Senses",
+    "text": "You have proficiency in the Perception skill."
+   },
+   {
+    "name": "Starlight Step",
+    "text": "As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+   },
+   {
+    "name": "Astral Trance",
+    "text": "You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you remain conscious. Whenever you finish this trance, you gain proficiency in one skill of your choice and with one weapon of your choice, selected from the Player's Handbook. You magically acquire these proficiencies by drawing them from shared elven memory and the experiences of entities on the Astral Plane, and you retain them until you finish your next long rest."
+   }
+  ]
+ },
+ {
+  "id": "half-elf",
+  "name": "Half-Elf",
+  "description": "Walking in two worlds but truly belonging to neither, half-elves combine what some say are the best qualities of their elf and human parents: human curiosity, inventiveness, and ambition tempered by the refined senses, love of nature, and artistic tastes of the elves. Source: Player's Handbook",
+  "age": "Half-elves age at much the same rate as humans, reaching adulthood at the age of 20. They live much longer than humans, however, often exceeding 180 years.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "CHA": 2
+   },
+   "choose": [
+    {
+     "count": 2,
+     "amount": 1
+    }
+   ]
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Elvish"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [],
+   "choose": {
+    "n": 2,
+    "from": [
+     "Acrobatics",
+     "Animal Handling",
+     "Arcana",
+     "Athletics",
+     "Deception",
+     "History",
+     "Insight",
+     "Intimidation",
+     "Investigation",
+     "Medicine",
+     "Nature",
+     "Perception",
+     "Performance",
+     "Persuasion",
+     "Religion",
+     "Sleight of Hand",
+     "Stealth",
+     "Survival"
+    ]
+   }
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "Thanks to your elven heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Fey Ancestry",
+    "text": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+   },
+   {
+    "name": "Skill Versatility",
+    "text": "You gain proficiency in two skills of your choice."
+   }
+  ]
+ },
+ {
+  "id": "tiefling",
+  "name": "Tiefling",
+  "description": "To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling. A pact struck generations ago infused the essence of Asmodeus and the archdevils of the Nine Hells into their bloodline.",
+  "age": "Tieflings mature at the same rate as humans but live a few years longer.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "CHA": 2
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Infernal"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [
+   "fire"
+  ],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Hellish Resistance",
+    "text": "You have resistance to fire damage."
+   }
+  ],
+  "subraces": [
+   {
+    "name": "Bloodline of Asmodeus",
+    "asi": {
+     "fixed": {
+      "INT": 1
+     }
+    },
+    "traits": [
+     {
+      "name": "Infernal Legacy",
+      "text": "You know the Thaumaturgy cantrip. At 3rd level you can cast Hellish Rebuke as a 2nd-level spell once per long rest; at 5th level you can also cast Darkness once per long rest. Charisma is your spellcasting ability for these spells."
+     }
+    ]
+   },
+   {
+    "name": "Bloodline of Baalzebul",
+    "asi": {
+     "fixed": {
+      "INT": 1
+     }
+    },
+    "traits": [
+     {
+      "name": "Legacy of Maladomini",
+      "text": "You know the Thaumaturgy cantrip. At 3rd level you can cast Ray of Sickness as a 2nd-level spell once per long rest; at 5th level you can cast Crown of Madness once per long rest. Charisma is your spellcasting ability."
+     }
+    ]
+   },
+   {
+    "name": "Bloodline of Dispater",
+    "asi": {
+     "fixed": {
+      "DEX": 1
+     }
+    },
+    "traits": [
+     {
+      "name": "Legacy of Dis",
+      "text": "You know the Thaumaturgy cantrip. At 3rd level you can cast Disguise Self once per long rest; at 5th level you can cast Detect Thoughts once per long rest. Charisma is your spellcasting ability."
+     }
+    ]
+   },
+   {
+    "name": "Bloodline of Fierna",
+    "asi": {
+     "fixed": {
+      "WIS": 1
+     }
+    },
+    "traits": [
+     {
+      "name": "Legacy of Phlegethos",
+      "text": "You know the Friends cantrip. At 3rd level you can cast Charm Person as a 2nd-level spell once per long rest; at 5th level you can cast Suggestion once per long rest. Charisma is your spellcasting ability."
+     }
+    ]
+   },
+   {
+    "name": "Bloodline of Glasya",
+    "asi": {
+     "fixed": {
+      "DEX": 1
+     }
+    },
+    "traits": [
+     {
+      "name": "Legacy of Malbolge",
+      "text": "You know the Minor Illusion cantrip. At 3rd level you can cast Disguise Self once per long rest; at 5th level you can cast Invisibility once per long rest. Charisma is your spellcasting ability."
+     }
+    ]
+   },
+   {
+    "name": "Bloodline of Levistus",
+    "asi": {
+     "fixed": {
+      "CON": 1
+     }
+    },
+    "traits": [
+     {
+      "name": "Legacy of Stygia",
+      "text": "You know the Ray of Frost cantrip. At 3rd level you can cast Armor of Agathys as a 2nd-level spell once per long rest; at 5th level you can cast Darkness once per long rest. Charisma is your spellcasting ability."
+     }
+    ]
+   },
+   {
+    "name": "Bloodline of Mammon",
+    "asi": {
+     "fixed": {
+      "INT": 1
+     }
+    },
+    "traits": [
+     {
+      "name": "Legacy of Minauros",
+      "text": "You know the Mage Hand cantrip. At 3rd level you can cast Tenser's Floating Disk once per short or long rest; at 5th level you can cast Arcane Lock (no material component) once per long rest. Charisma is your spellcasting ability."
+     }
+    ]
+   },
+   {
+    "name": "Bloodline of Mephistopheles",
+    "asi": {
+     "fixed": {
+      "INT": 1
+     }
+    },
+    "traits": [
+     {
+      "name": "Legacy of Cania",
+      "text": "You know the Mage Hand cantrip. At 3rd level you can cast Burning Hands as a 2nd-level spell once per long rest; at 5th level you can cast Flame Blade once per long rest. Charisma is your spellcasting ability."
+     }
+    ]
+   },
+   {
+    "name": "Bloodline of Zariel",
+    "asi": {
+     "fixed": {
+      "STR": 1
+     }
+    },
+    "traits": [
+     {
+      "name": "Legacy of Avernus",
+      "text": "You know the Thaumaturgy cantrip. At 3rd level you can cast Searing Smite as a 2nd-level spell once per long rest; at 5th level you can cast Branding Smite once per long rest. Charisma is your spellcasting ability."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lizardfolk",
+  "name": "Lizardfolk",
+  "description": "Lizardfolk possess an alien and inscrutable mindset, their desires and thoughts driven by a different set of basic principles than those of warm-blooded creatures. Their dismal swamp homes might lie hundreds of miles from the nearest human settlement, but the gap between their way of thinking and that of the smooth-skins is far greater.",
+  "age": "Lizardfolk reach maturity around age 14 and rarely live longer than 60 years.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30,
+   "swim": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "CON": 2,
+    "WIS": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Draconic"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": {
+    "n": 2,
+    "from": [
+     "Animal Handling",
+     "Nature",
+     "Perception",
+     "Stealth",
+     "Survival"
+    ]
+   }
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Bite",
+    "text": "Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+   },
+   {
+    "name": "Cunning Artisan",
+    "text": "As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size Small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools."
+   },
+   {
+    "name": "Hold Breath",
+    "text": "You can hold your breath for up to 15 minutes at a time."
+   },
+   {
+    "name": "Hunter's Lore",
+    "text": "You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival."
+   },
+   {
+    "name": "Natural Armor",
+    "text": "You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+   },
+   {
+    "name": "Hungry Jaws",
+    "text": "In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest."
+   }
+  ],
+  "naturalAC": {
+   "base": 13,
+   "ability": "DEX"
+  }
+ },
+ {
+  "id": "halfling",
+  "name": "Halfling",
+  "description": "The comforts of home are the goals of most halflings' lives: a place to settle in peace and quiet, far from marauding monsters and clashing armies. Others form nomadic bands that travel constantly, lured by the open road and the wide horizon to discover the wonders of new lands and peoples. Halflings work readily with others, and they are loyal to their friends, whether halfling or otherwise. They can display remarkable ferocity when their friends, families, or communities are threatened.",
+  "age": "A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.",
+  "size": "Small",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 25
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "DEX": 2
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Halfling"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Lucky",
+    "text": "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die. You must use the new result, even if it is a 1."
+   },
+   {
+    "name": "Brave",
+    "text": "You have advantage on saving throws against being frightened."
+   },
+   {
+    "name": "Nimble",
+    "text": "You can move through the space of any creature that is of a size larger than yours."
+   }
+  ],
+  "subraces": [
+   {
+    "name": "Lightfoot Halfling",
+    "asi": {
+     "fixed": {
+      "CHA": 1
+     }
+    },
+    "traits": [
+     {
+      "name": "Naturally Stealthy",
+      "text": "You can attempt to hide even when you are only obscured by a creature that is at least one size larger than you."
+     }
+    ]
+   },
+   {
+    "name": "Stout Halfling",
+    "asi": {
+     "fixed": {
+      "CON": 1
+     }
+    },
+    "resistances": [
+     "poison"
+    ],
+    "traits": [
+     {
+      "name": "Stout Resilience",
+      "text": "You have advantage on saving throws against poison, and you have resistance to poison damage."
+     }
+    ]
+   },
+   {
+    "name": "Ghostwise Halfling",
+    "asi": {
+     "fixed": {
+      "WIS": 1
+     }
+    },
+    "traits": [
+     {
+      "name": "Silent Speech",
+      "text": "You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically to one creature at a time."
+     }
+    ]
+   },
+   {
+    "name": "Lotusden Halfling",
+    "asi": {
+     "fixed": {
+      "WIS": 1
+     }
+    },
+    "traits": [
+     {
+      "name": "Children of the Woods",
+      "text": "You know the Druidcraft cantrip. At 3rd level you can cast Entangle once per long rest; at 5th level you can cast Spike Growth once per long rest. No material components are required. Wisdom is your spellcasting ability."
+     },
+     {
+      "name": "Timberwalk",
+      "text": "Ability checks made to track you are at disadvantage, and you can move through difficult terrain made of non-magical plants and overgrowth without expending extra movement."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "gnome",
+  "name": "Gnome",
+  "description": "A constant hum of busy activity pervades the warrens and neighborhoods where gnomes form their close-knit communities. Louder sounds punctuate the hum: a crunch of grinding gears here, a minor explosion there, a yelp of surprise or triumph, and especially bursts of laughter. Gnomes take delight in life, enjoying every moment of invention, exploration, investigation, creation, and play.",
+  "age": "Gnomes mature at the same rate as humans, and most are expected to settle into adult life around the age of 40. They can live to 350 years on average, but it's not too uncommon for them to reach 500 years of age.",
+  "size": "Small",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 25
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "INT": 2
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Gnomish"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Gnome Cunning",
+    "text": "You have advantage on all Intelligence, Wisdom, and Charisma saves against magic."
+   }
+  ],
+  "subraces": [
+   {
+    "name": "Rock Gnome",
+    "asi": {
+     "fixed": {
+      "CON": 1
+     }
+    },
+    "tools": [
+     "Tinker's tools"
+    ],
+    "traits": [
+     {
+      "name": "Artificer's Lore",
+      "text": "Whenever you make an Intelligence (History) check related to magical, alchemical, or technological items, you can add twice your proficiency bonus instead of any other proficiency bonus that may apply."
+     },
+     {
+      "name": "Tinker",
+      "text": "You have proficiency with tinker's tools. Using them, you can spend 1 hour and 10 gp of materials to build a Tiny clockwork device (AC 5, 1 hp) that works for 24 hours: a Clockwork Toy, a Fire Starter, or a Music Box. You can have up to three such devices active at a time."
+     }
+    ]
+   },
+   {
+    "name": "Forest Gnome",
+    "asi": {
+     "fixed": {
+      "DEX": 1
+     }
+    },
+    "traits": [
+     {
+      "name": "Natural Illusionist",
+      "text": "You know the Minor Illusion cantrip. Intelligence is your spellcasting ability for it."
+     },
+     {
+      "name": "Speak with Small Beasts",
+      "text": "Through sound and gestures, you can communicate simple ideas with Small or smaller beasts."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "deep-gnome",
+  "name": "Deep Gnome",
+  "description": "Forest gnomes and rock gnomes are the gnomes most commonly encountered in the lands of the surface world. There is another subrace of gnomes rarely seen by any surface-dweller: deep gnomes, also known as svirfneblin. Guarded, and suspicious of outsiders, svirfneblin are cunning and taciturn, but can be just as kind-hearted, loyal, and compassionate as their surface cousins.",
+  "age": "Gnomes mature at the same rate as humans, and most are expected to settle into adult life around the age of 40. They can live to 350 years on average, but it's not too uncommon for them to reach 500 years of age.",
+  "size": "Small",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 25
+  },
+  "darkvision": 120,
+  "asi": {
+   "fixed": {
+    "INT": 2,
+    "DEX": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Gnomish"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Superior Darkvision",
+    "text": "Your darkvision has a radius of 120 feet."
+   },
+   {
+    "name": "Gnome Cunning",
+    "text": "You have advantage on all Intelligence, Wisdom, and Charisma saves against magic."
+   },
+   {
+    "name": "Stone Camouflage",
+    "text": "You have advantage on Dexterity (stealth) checks to hide in rocky terrain."
+   }
+  ]
+ },
+ {
+  "id": "autognome",
+  "name": "Autognome",
+  "description": "Autognomes are mechanical beings built by rock gnomes. Sometimes, because of a malfunction or a unique circumstance, an autognome becomes separated from its creator and strikes out on its own.An autognome bears a resemblance to its creator, and most autognomes are programmed to speak and understand Gnomish. The internal components used in an autognome's manufacture can vary wildly; one autognome might have an actual beating heart in its chest cavity, while another might be powered by stardust or intricate clockwork gears.Roll on the Autognome History table or choose an entry that you like to identify what event set you on the path to adventure. If nothing on the table appeals to you, work with your DM to create an origin story for your character.Like gnomes, autognomes can live for centuries, typically up to 500 years.",
+  "age": null,
+  "size": "Small",
+  "type": "Construct",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "flexible": true
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [
+   "poison"
+  ],
+  "traits": [
+   {
+    "name": "Armored Casing",
+    "text": "You are encased in a thin metal or some other durable material. While you aren't wearing armor, your base Armor Class is 13 + your Dexterity modifier."
+   },
+   {
+    "name": "Built for Success",
+    "text": "You can add a d4 to one attack roll, ability check, or saving throw you make, and you can do so after seeing the d20 roll but before the effects of the roll are resolved. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+   },
+   {
+    "name": "Healing Machine",
+    "text": "If the Mending spell is cast on you, you can spend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point). In addition, your creator designed you to benefit from several spells that preserve life but that normally don't affect Constructs: Cure Wounds, Healing Word, Mass Cure Wounds, Mass Healing Word, and Spare the Dying."
+   },
+   {
+    "name": "Mechanical Nature",
+    "text": "You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being paralyzed or poisoned. You don't need to eat, drink, or breathe."
+   },
+   {
+    "name": "Sentry's Rest",
+    "text": "When you take a long rest, you spend at least 6 hours in an inactive, motionless state, instead of sleeping. In this state, you appear inert, but you remain conscious."
+   },
+   {
+    "name": "Specialized Design",
+    "text": "You gain two tool proficiencies of your choice, selected from the Player's Handbook."
+   }
+  ],
+  "naturalAC": {
+   "base": 13,
+   "ability": "DEX"
+  }
+ },
+ {
+  "id": "aasimar",
+  "name": "Aasimar",
+  "description": "Whereas tieflings have fiendish blood in their veins, aasimar are the descendants of celestial beings. These folk generally appear as glorious humans with lustrous hair, flawless skin, and piercing eyes. Aasimar often attempt to pass as humans in order to right wrongs and defend goodness on the Material Plane without drawing undue attention to their celestial heritage. They strive to fit into society, although they usually rise to the top, becoming revered leaders and honorable heroes.",
+  "age": "Aasimar age at the same rate as humans but live a few years longer.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "WIS": 1,
+    "CHA": 2
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Celestial"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [
+   "necrotic",
+   "radiant"
+  ],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "Thanks to your celestial heritage, you have superior vision in dim and dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Celestial Resistance",
+    "text": "You have resistance to necrotic and radiant damage."
+   },
+   {
+    "name": "Celestial Legacy",
+    "text": "You know the Light cantrip. Once you reach 3rd level, you can cast the Lesser Restoration spell once using this trait, and you regain the ability to do so when you finish a long rest. Once you reach 5th level, you can cast the Daylight spell once with this trait as a 3rd level spell, and you regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
+   }
+  ]
+ },
+ {
+  "id": "bugbear",
+  "name": "Bugbear",
+  "description": "Bugbears rely on stealth and strength to attack, preferring to operate at night. When they're not in battle, bugbears spend much of their time resting or dozing, and bully weaker creatures into doing their bidding. From the viewpoint of the rest of the world, their aggression and savagery are thankfully offset by their rarity and lethargy.",
+  "age": "Bugbears reach adulthood at age 16 and live up to 80 years.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "STR": 2,
+    "DEX": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Goblin"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [
+    "Stealth"
+   ],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Long-Limbed",
+    "text": "When you make a melee attack on your turn, your reach for it is 5 feet greater than normal."
+   },
+   {
+    "name": "Powerful Build",
+    "text": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+   },
+   {
+    "name": "Sneaky",
+    "text": "You are proficient in the Stealth skill."
+   },
+   {
+    "name": "Surprise Attack",
+    "text": "If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat."
+   }
+  ]
+ },
+ {
+  "id": "centaur",
+  "name": "Centaur",
+  "description": "Roamers at heart, centaurs love open spaces and the freedom to travel. As much as they can, centaurs run. They race the wind, hooves thundering and tails streaming behind them.",
+  "age": "Centaurs mature and age at about the same rate as humans.",
+  "size": "Medium",
+  "type": "Fey",
+  "speed": {
+   "walk": 40
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "STR": 2,
+    "WIS": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Sylvan"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": {
+    "n": 1,
+    "from": [
+     "Animal Handling",
+     "Medicine",
+     "Nature",
+     "Survival"
+    ]
+   }
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Charge",
+    "text": "If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves."
+   },
+   {
+    "name": "Hooves",
+    "text": "Your hooves are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+   },
+   {
+    "name": "Equine Build",
+    "text": "You count as one size larger when determining your carrying capacity and the weight you can push or drag. In addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot."
+   },
+   {
+    "name": "Survivor",
+    "text": "You have proficiency in one of the following skills: Animal Handling, Medicine, Nature, or Survival."
+   }
+  ]
+ },
+ {
+  "id": "air-genasi",
+  "name": "Air Genasi",
+  "description": "Those who think of other planes at all consider them remote, distant realms, but planar influence can be felt throughout the world. It sometimes manifests in beings who, through an accident of birth, carry the power of the planes in their blood. The genasi are one such people, the offspring of genies and mortals. As an air genasi, you are descended from the djinn. As changeable as the weather, your moods shift from calm to wild and violent with little warning, but these storms rarely last long. Air genasi typically have light blue skin, hair, and eyes. A faint but constant breeze accompanies them, tousling the hair and stirring the clothing. Some air genasi speak with breathy voices, marked by a faint echo. A few display odd patterns in their flesh or grow crystals from their scalps.",
+  "age": "Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "CON": 2,
+    "DEX": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Primordial"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Unending Breath",
+    "text": "You can hold your breath indefinitely while you're not incapacitated."
+   },
+   {
+    "name": "Mingle with the Wind",
+    "text": "You can cast the Levitate spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell."
+   }
+  ]
+ },
+ {
+  "id": "earth-genasi",
+  "name": "Earth Genasi",
+  "description": "Those who think of other planes at all consider them remote, distant realms, but planar influence can be felt throughout the world. It sometimes manifests in beings who, through an accident of birth, carry the power of the planes in their blood. The genasi are one such people, the offspring of genies and mortals. As an earth genasi, you are descended from the cruel and greedy dao, though you aren't necessarily evil. You have inherited some measure of control over earth, reveling in superior strength and solid power. You tend to avoid rash decisions, pausing long enough to consider your options before taking action. Elemental earth manifests differently from one individual to the next. Some earth genasi always have bits of dust falling from their bodies and mud clinging to their clothes, never getting clean no matter how often they bathe. Others are as shiny and polished as gemstones, with skin tones of deep brown or black, eyes sparkling like agates. Earth genasi can also have smooth metallic flesh, dull iron skin spotted with rust, a pebbled and rough hide, or even a coating of tiny embedded crystals. The most arresting have fissures in their flesh, from which faint light shines.",
+  "age": "Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "CON": 2,
+    "STR": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Primordial"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Earth Walk",
+    "text": "You can move across difficult terrain made of earth or stone without expending extra movement."
+   },
+   {
+    "name": "Merge with Stone",
+    "text": "You can cast the Pass without Trace spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell."
+   }
+  ]
+ },
+ {
+  "id": "fire-genasi",
+  "name": "Fire Genasi",
+  "description": "Those who think of other planes at all consider them remote, distant realms, but planar influence can be felt throughout the world. It sometimes manifests in beings who, through an accident of birth, carry the power of the planes in their blood. The genasi are one such people, the offspring of genies and mortals. As a fire genasi, you have inherited the volatile mood and keen mind of the efreet. You tend toward impatience and making snap judgments. Rather than hide your distinctive appearance, you exult in it. Nearly all fire genasi are feverishly hot as if burning inside, an impression reinforced by flaming red, coalblack, or ash-gray skin tones. The more human-looking have fiery red hair that writhes under extreme emotion, while more exotic specimens sport actual flames dancing on their heads. Fire genasi voices might sound like crackling flames, and their eyes flare when angered. Some are accompanied by the faint scent of brimstone.",
+  "age": "Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "CON": 2,
+    "INT": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Primordial"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [
+   "fire"
+  ],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. Your ties to the Elemental Plane of Fire make your darkvision unusual: everything you see in darkness is in a shade of red."
+   },
+   {
+    "name": "Fire Resistance",
+    "text": "You have resistance to fire damage."
+   },
+   {
+    "name": "Reach to the Blaze",
+    "text": "You know the Produce Flame cantrip. Once you reach 3rd level, you can cast the Burning Hands spell once with this trait as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells."
+   }
+  ]
+ },
+ {
+  "id": "water-genasi",
+  "name": "Water Genasi",
+  "description": "Tracing their ancestry to the genies of the Elemental Planes, each genasi can tap into the power of one of the elements. Air, earth, fire, and water — these are the four pillars of the Material Plane and the four types of genasi. Some genasi are direct descendants of a genie, while others were born to non-genasi parents who lived near a place suffused by a genie's magic. A typical genasi has a life span of 120 years Water genasi descend from marids, aquatic genies from the Elemental Plane of Water. Water genasi are perfectly suited to life underwater and carry the power of the waves inside themselves. Their skin is often shades of blue or green, sometimes a blend of the two. If they have a human skin tone, there is a glistening texture that catches the light, like water droplets or nearly invisible fish scales. Their hair can resemble seaweed, waving as if in a current, or it can even be like water itself.",
+  "age": null,
+  "size": "Medium or Small",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30,
+   "swim": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "flexible": true
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [
+   "acid"
+  ],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+   },
+   {
+    "name": "Acid Resistance",
+    "text": "You have resistance to acid damage."
+   },
+   {
+    "name": "Call to the Wave",
+    "text": "You know the Acid Splash cantrip. Starting at 3rd level, you can cast the Create or Destroy Water spell with this trait. Starting at 5th level, you can also cast the Water Walk spell with this trait, without requiring a material component. Once you cast Create or Destroy Water or Water Walk with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+   }
+  ]
+ },
+ {
+  "id": "satyr",
+  "name": "Satyr",
+  "description": "Satyrs have a well-earned reputation for their good spirits, gregarious personalities, and love of revels. Most satyrs are driven by two simple desires; to see the world and to sample its every pleasure. While their spontaneity and whimsy sometimes put them at odds with more stoic peoples, satyrs rarely let the moodiness of others hinder their own happiness.",
+  "age": "Satyrs mature and age at about the same rate as humans.",
+  "size": "Medium",
+  "type": "Fey",
+  "speed": {
+   "walk": 35
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "CHA": 2,
+    "DEX": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Sylvan"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Ram",
+    "text": "You can use your head and horns to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d4 + your Strength modifier."
+   },
+   {
+    "name": "Magic Resistance",
+    "text": "You have advantage on saving throws against spells and other magical effects."
+   },
+   {
+    "name": "Mirthful Leaps",
+    "text": "Whenever you make a long or high jump, you can roll a d8 and add the number to the number of feet you cover, even when making a standing jump. This extra distance costs movement as normal."
+   },
+   {
+    "name": "Reveler",
+    "text": "You have proficiency in the Performance and Persuasion skills, and you have proficiency with one musical instrument of your choice."
+   }
+  ]
+ },
+ {
+  "id": "changeling",
+  "name": "Changeling",
+  "description": "Changelings can shift their forms with a thought. Many changelings use this gift as a form of artistic and emotional expression. It's also an invaluable tool for grifters, spies, and others who wish to deceive. This leads many people to treat changelings with suspicion.",
+  "age": "Changelings mature slightly faster than humans but share a similar lifespan — typically a century or less. While a changeling can transform to conceal their age, the effects of aging affect them similarly to humans.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "CHA": 2
+   },
+   "choose": [
+    {
+     "count": 1,
+     "amount": 1
+    }
+   ]
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 2
+  },
+  "skills": {
+   "fixed": [],
+   "choose": {
+    "n": 2,
+    "from": [
+     "Deception",
+     "Insight",
+     "Intimidation",
+     "Persuasion"
+    ]
+   }
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Shapechanger",
+    "text": "As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. You can't duplicate the appearance of a creature you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait. You stay in the new form until you use an action to revert to your true form or until you die."
+   },
+   {
+    "name": "Changeling Instincts",
+    "text": "You gain proficiency with two of the following skills of your choice: Deception, Insight, Intimidation, and Persuasion."
+   }
+  ]
+ },
+ {
+  "id": "firbolg",
+  "name": "Firbolg",
+  "description": "Firbolgs are fey-oriented half-giants. Their tribes cloister in remote forest strongholds, preferring to spend their days in quiet harmony with the woods. When provoked, firbolgs demonstrate formidable skills with weapons and druidic magic.",
+  "age": "As humanoids related to the fey, firbolg have long lifespans. A firbolg reaches adulthood around 30, and the oldest of them can live for 500 years.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "WIS": 2,
+    "STR": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Elvish",
+    "Giant"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Firbolg Magic",
+    "text": "You can cast Detect Magic and Disguise Self with this trait, using Wisdom as your spellcasting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest. When you use this version of disguise self, you can seem up to 3 feet shorter than normal, allowing you to more easily blend in with humans and elves."
+   },
+   {
+    "name": "Hidden Step",
+    "text": "As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you use this trait, you can't use it again until you finish a short or long rest."
+   },
+   {
+    "name": "Powerful Build",
+    "text": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+   },
+   {
+    "name": "Speech of Beast and Leaf",
+    "text": "You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them."
+   }
+  ]
+ },
+ {
+  "id": "minotaur",
+  "name": "Minotaur",
+  "description": "Minotaurs are barrel-chested humanoids with heads resembling those of bulls. Their horns range in size from about 1 foot long to great, curling weapons easily three times that length. They often ornament their horns with metal rings or sheathe them in metal to protect them from damage.",
+  "age": null,
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "STR": 2,
+    "CON": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Minotaur"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": {
+    "n": 1,
+    "from": [
+     "Intimidation",
+     "Persuasion"
+    ]
+   }
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Horns",
+    "text": "Your horns are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+   },
+   {
+    "name": "Goring Rush",
+    "text": "Immediately after you use the Dash action on your turn and move at least 20 feet, you can make one melee attack with your horns as a bonus action."
+   },
+   {
+    "name": "Hammering Horns",
+    "text": "Immediately after you hit a creature with a melee attack as a part of the Attack action on your turn, you can use a bonus action to attempt to shove that target with your horns. The target must be within 5 feet of you and no more than one size larger than you. Unless it succeeds on a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier, you push it up to 10 feet away from you."
+   },
+   {
+    "name": "Imposing Presence",
+    "text": "You have proficiency in one of the following skills of your choice: Intimidation or Persuasion."
+   }
+  ]
+ },
+ {
+  "id": "githyanki",
+  "name": "Githyanki",
+  "description": "The warlike githyanki and the contemplative githzerai are a sundered people – two cultures that utterly despise one another. The brutal githyanki are trained from birth as warriors, while the githzerai hone their minds to a razor's edge in their fortresses within Limbo. But before there were githyanki or githzerai, these creatures were a single race enslaved by the illithids.Although they attempted to overthrow their masters many times, their rebellions were repeatedly crushed until a great leader named Gith arose. After much bloodshed, Gith and her followers threw off the yoke of their illithid masters, but another leader named Zerthimon emerged in the aftermath of battle. Zerthimon challenged Gith's motives, claiming that her strict martial leadership and desire for vengeance amounted to little more than another form of slavery for her people. A rift erupted between followers of each leader, and they eventually became the two races whose enmity endures to this day: the Githyanki in the way of Gith, and the Githzerai in the way of Zerthimon.Whether these tall, gaunt creatures were peaceful or savage, cultured or primitive before the illithids enslaved and changed them, none can say. Not even the original name of their race remains from that distant time.The githyanki plunder countless worlds from the decks of their astral vessels and the backs of red dragons. Feathers, beads, gems, and precious metals decorate their armor and weapons – the legendary silver swords with which they cut through their foes. Since winning their freedom from the illithids, the githyanki have become ruthless conquerors under the rulership of their dread lich-queen, Vlaakith.",
+  "age": "Gith reach adulthood in their late teens and live for about a century.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "STR": 2,
+    "INT": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Gith"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [],
+   "choose": {
+    "n": 1,
+    "from": [
+     "Acrobatics",
+     "Animal Handling",
+     "Arcana",
+     "Athletics",
+     "Deception",
+     "History",
+     "Insight",
+     "Intimidation",
+     "Investigation",
+     "Medicine",
+     "Nature",
+     "Perception",
+     "Performance",
+     "Persuasion",
+     "Religion",
+     "Sleight of Hand",
+     "Stealth",
+     "Survival"
+    ]
+   }
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Decadent Mastery",
+    "text": "You learn one language of your choice, and you are proficient with one skill or tool of your choice. In the timeless city of Tu'narath, githyanki have bountiful time to master odd bits of knowledge."
+   },
+   {
+    "name": "Martial Prodigy",
+    "text": "You are proficient with light and medium armor and with shortswords, longswords, and greatswords."
+   },
+   {
+    "name": "Githyanki Psionics",
+    "text": "You know the Mage Hand cantrip, and the hand is invisible when you cast the cantrip with this trait. When you reach 3rd level, you can cast the Jump spell once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Misty Step spell once with this trait, and you regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells. When you cast them with this trait, they don't require components."
+   }
+  ],
+  "armor": [
+   "Light armor",
+   "Medium armor"
+  ],
+  "weapons": [
+   "Shortsword",
+   "Longsword",
+   "Greatsword"
+  ]
+ },
+ {
+  "id": "githzerai",
+  "name": "Githzerai",
+  "description": "The warlike githyanki and the contemplative githzerai are a sundered people – two cultures that utterly despise one another. The brutal githyanki are trained from birth as warriors, while the githzerai hone their minds to a razor's edge in their fortresses within Limbo. But before there were githyanki or githzerai, these creatures were a single race enslaved by the illithids. Although they attempted to overthrow their masters many times, their rebellions were repeatedly crushed until a great leader named Gith arose. After much bloodshed, Gith and her followers threw off the yoke of their illithid masters, but another leader named Zerthimon emerged in the aftermath of battle. Zerthimon challenged Gith's motives, claiming that her strict martial leadership and desire for vengeance amounted to little more than another form of slavery for her people. A rift erupted between followers of each leader, and they eventually became the two races whose enmity endures to this day: the Githyanki in the way of Gith, and the Githzerai in the way of Zerthimon. Whether these tall, gaunt creatures were peaceful or savage, cultured or primitive before the illithids enslaved and changed them, none can say. Not even the original name of their race remains from that distant time. Focused philosophers and austere ascetics, the githzerai pursue lives of rigid order. Lean and muscular, they wear unadorned clothing free of ornamentation, keeping their own counsel and trusting few creatures outside of their own kind. Having turned their backs on their warlike githyanki kin, the githzerai maintain a strict monastic lifestyle, dwelling on islands of order in the vast sea of chaos that is the plane of Limbo.",
+  "age": "Gith reach adulthood in their late teens and live for about a century.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "WIS": 2,
+    "INT": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Gith"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Mental Discipline",
+    "text": "You have advantage on saving throws against the charmed and frightened conditions. Under the tutelage of monastic masters, githzerai learn to govern their own minds."
+   },
+   {
+    "name": "Githzerai Psionics",
+    "text": "You know the Mage Hand cantrip, and the hand is invisible when you cast the cantrip with this trait. When you reach 3rd level, you can cast the Shield spell once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Detect Thoughts spell once with this trait, and you regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells. When you cast them with this trait, they don't require components."
+   }
+  ]
+ },
+ {
+  "id": "goblin",
+  "name": "Goblin",
+  "description": "Goblins occupy an uneasy place in a dangerous world, and they react by lashing out at any creatures they believe they can bully. Cunning in battle and cruel in victory, goblins are fawning and servile in defeat.",
+  "age": "Goblins reach adulthood at age 8 and live up to 60 years.",
+  "size": "Small",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "DEX": 2,
+    "CON": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Goblin"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Fury of the Small",
+    "text": "When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest."
+   },
+   {
+    "name": "Nimble Escape",
+    "text": "You can take the Disengage or Hide action as a bonus action on each of your turns."
+   }
+  ]
+ },
+ {
+  "id": "hobgoblin",
+  "name": "Hobgoblin",
+  "description": "War is the lifeblood of hobgoblins. Its glories are the dreams that inspire them. Its horrors don't feature in their nightmares. Cowardice is more terrible to hobgoblins than dying, for they carry their living acts into the afterlife. A hero in death becomes a hero eternal.",
+  "age": "Hobgoblins mature at the same rate as humans and have lifespans similar in length to theirs.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "CON": 2,
+    "INT": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Goblin"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Martial Training",
+    "text": "You are proficient with two martial weapons of your choice and with light armor."
+   },
+   {
+    "name": "Saving Face",
+    "text": "Hobgoblins are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can't use it again until you finish a short or long rest."
+   }
+  ],
+  "armor": [
+   "Light armor"
+  ]
+ },
+ {
+  "id": "goliath",
+  "name": "Goliath",
+  "description": "At the highest mountain peaks dwell the reclusive goliaths, wandering a bleak realm of rock, wind, and cold. Their bodies look as if they are carved from mountain stone and give them great physical power. Their hearts are infused with the cold regard of their frigid realm, leaving each goliath with the responsibility to earn a place in the tribe or die trying.",
+  "age": "Goliaths have lifespans comparable to humans. They enter adulthood in their late teens and usually live less than a century.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "STR": 2,
+    "CON": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Giant"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [
+    "Athletics"
+   ],
+   "choose": null
+  },
+  "resistances": [
+   "cold"
+  ],
+  "traits": [
+   {
+    "name": "Natural Athlete",
+    "text": "You have proficiency in the Athletics skill."
+   },
+   {
+    "name": "Stone's Endurance",
+    "text": "You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest."
+   },
+   {
+    "name": "Powerful Build",
+    "text": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+   },
+   {
+    "name": "Mountain Born",
+    "text": "You have resistance to cold damage. You're also acclimated to high altitude, including elevations above 20,000 feet."
+   }
+  ]
+ },
+ {
+  "id": "harengon",
+  "name": "Harengon",
+  "description": "Harengons originated in the Feywild, where they spoke Sylvan and embodied the spirit of freedom and travel. In time, these rabbitfolk hopped into other worlds, bringing the fey realm's exuberance with them and learning new languages as they went. Harengons are bipedal, with the characteristic long feet of the rabbits they resemble and fur in a variety of colors. They share the keen senses and powerful legs of leporine creatures and are full of energy, like a wound-up spring. Harengons are blessed with a little fey luck, and they often find themselves a few fortunate feet away from dangers during adventures.",
+  "age": "Harengons have a life span of about a century.",
+  "size": "Medium or Small",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "flexible": true
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [
+    "Perception"
+   ],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Hare-Trigger",
+    "text": "You can add your proficiency bonus to your initiative rolls."
+   },
+   {
+    "name": "Leporine Senses",
+    "text": "You have proficiency in the Perception skill."
+   },
+   {
+    "name": "Lucky Footwork",
+    "text": "When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0."
+   },
+   {
+    "name": "Rabbit Hop",
+    "text": "As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+   }
+  ]
+ },
+ {
+  "id": "kenku",
+  "name": "Kenku",
+  "description": "Haunted by an ancient crime that robbed them of their wings, the flightless kenku wander the world as vagabonds and burglars who live at the edge of human society. Kenku suffer from a sinister reputation that is not wholly unearned, but they can prove to be valuable allies.",
+  "age": "Kenku have shorter lifespans than humans. They reach maturity at about 12 years old and can live to 60.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "DEX": 2,
+    "WIS": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Auran"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": {
+    "n": 2,
+    "from": [
+     "Acrobatics",
+     "Deception",
+     "Sleight of Hand",
+     "Stealth"
+    ]
+   }
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Expert Forgery",
+    "text": "You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects."
+   },
+   {
+    "name": "Kenku Training",
+    "text": "You are proficient in your choice of two of the following skills: Acrobatics, Deception, Stealth, and Sleight of Hand."
+   },
+   {
+    "name": "Mimicry",
+    "text": "You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check."
+   }
+  ]
+ },
+ {
+  "id": "kobold",
+  "name": "Kobold",
+  "description": "Kobolds are often dismissed as cowardly, foolish, and weak, but these little reptilian creatures actually have a strong social structure that stresses devotion to the tribe, are clever with their hands, and viciously work together in order to overcome their physical limitations.",
+  "age": "Kobolds reach adulthood at age 6 and can live up to 120 years but rarely do so.",
+  "size": "Small",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "DEX": 2
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Draconic"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray. Grovel, Cower, and Beg. As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you. Once you use this trait, you can't use it again until you finish a short or long rest."
+   },
+   {
+    "name": "Pack Tactics",
+    "text": "You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated."
+   },
+   {
+    "name": "Sunlight Sensitivity",
+    "text": "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+   }
+  ]
+ },
+ {
+  "id": "shifter",
+  "name": "Shifter",
+  "description": "Shifters are sometimes called the weretouched, as many believe that they are the descendants of humans and lycanthropes. They are humanoids with a bestial aspect; while they cannot fully change shape they can temporarily enhance their animalistic features – a state they call shifting. Whatever their origins, shifters have evolved into a unique race. A shifter walks on the knife's edge between the wilds and the world around them. Do they embrace their primal instincts or the path of civilization? Beasthide often signifies the bear or boar: stoic, stubborn and thick-skinned. Longtooth shifters typically have lupine traits and prefer to run with a pack. Swiftstride are often predatory and feline, but a swiftstride could also be a cunning rat who darts through the shadows. Wildhunt shifters are born from any creature that tracks its prey.",
+  "age": "Shifters are quick to mature both physically and emotionally, reaching young adulthood at age 10. They rarely live to be more than 70 years old.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {},
+  "languages": {
+   "fixed": [
+    "Common",
+    "Quori"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [
+    "Perception"
+   ],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Keen Senses",
+    "text": "You have proficiency in the Perception skill."
+   },
+   {
+    "name": "Shifting",
+    "text": "As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to your level + your Constitution modifier (minimum of 1 temporary hit point). You also gain benefits that depend on your shifter subrace, described below. Once you shift, you can't do so again until you finish a short or long rest."
+   }
+  ],
+  "subraces": [
+   {
+    "name": "Beasthide",
+    "asi": {
+     "fixed": {
+      "CON": 2
+     }
+    },
+    "skills": {
+     "fixed": [
+      "Athletics"
+     ]
+    },
+    "traits": [
+     {
+      "name": "Tough",
+      "text": "You have proficiency in the Athletics skill."
+     },
+     {
+      "name": "Shifting Feature",
+      "text": "Whenever you shift, you gain 1d6 additional temporary hit points, and while shifted you have a +1 bonus to your AC."
+     }
+    ]
+   },
+   {
+    "name": "Swiftstride",
+    "asi": {
+     "fixed": {
+      "DEX": 1,
+      "CHA": 1
+     }
+    },
+    "speed": {
+     "walk": 35
+    },
+    "skills": {
+     "fixed": [
+      "Acrobatics"
+     ]
+    },
+    "traits": [
+     {
+      "name": "Graceful",
+      "text": "You have proficiency in the Acrobatics skill."
+     },
+     {
+      "name": "Swift Stride",
+      "text": "Your walking speed increases by 5 feet."
+     },
+     {
+      "name": "Shifting Feature",
+      "text": "While shifted, your walking speed increases by an additional 5 feet, and you can move up to 10 feet as a reaction when an enemy ends its turn within 5 feet of you, without provoking opportunity attacks."
+     }
+    ]
+   },
+   {
+    "name": "Longtooth",
+    "asi": {
+     "fixed": {
+      "STR": 2
+     }
+    },
+    "skills": {
+     "fixed": [
+      "Intimidation"
+     ]
+    },
+    "traits": [
+     {
+      "name": "Fierce",
+      "text": "You have proficiency in the Intimidation skill."
+     },
+     {
+      "name": "Shifting Feature",
+      "text": "While shifted, you can make an unarmed strike with your fangs as a bonus action, dealing 1d6 + Strength modifier piercing damage."
+     }
+    ]
+   },
+   {
+    "name": "Wildhunt",
+    "asi": {
+     "fixed": {
+      "WIS": 2,
+      "DEX": 1
+     }
+    },
+    "skills": {
+     "fixed": [
+      "Survival"
+     ]
+    },
+    "traits": [
+     {
+      "name": "Natural Tracker",
+      "text": "You have proficiency in the Survival skill."
+     },
+     {
+      "name": "Shifting Feature",
+      "text": "While shifted, you have advantage on Wisdom checks, and no creature within 30 feet of you can make an attack roll with advantage against you unless you're incapacitated."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tabaxi",
+  "name": "Tabaxi",
+  "description": "Hailing from a strange and distant land, wandering tabaxi are catlike humanoids driven by curiosity to collect interesting artifacts, gather tales and stories, and lay eyes on all the world's wonders. Ultimate travelers, the inquisitive tabaxi rarely stay in one place for long. Their innate nature pushes them to leave no secrets uncovered, no treasures or legends lost.",
+  "age": "Tabaxi have lifespans equivalent to humans.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30,
+   "climb": 20
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "DEX": 2,
+    "CHA": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [
+    "Perception",
+    "Stealth"
+   ],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "You have a cat's keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Feline Agility",
+    "text": "Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
+   },
+   {
+    "name": "Cat's Claws",
+    "text": "Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+   },
+   {
+    "name": "Cat's Talent",
+    "text": "You have proficiency in the Perception and Stealth skills."
+   }
+  ]
+ },
+ {
+  "id": "tortle",
+  "name": "Tortle",
+  "description": "What many tortles consider a simple life, others might call a life of adventure. Tortles are born near sandy coastlines, but as soon as they're able to walk on two legs, they become nomad survivalists eager to explore the wilderness, experience its many wonders, put their skills to the test, and make new acquaintances.",
+  "age": "Young tortles crawl for a few weeks after birth before learning to walk on two legs. They reach adulthood by the age of 15 and live an average of 50 years.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "STR": 2,
+    "WIS": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Aquan"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [
+    "Survival"
+   ],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Claws",
+    "text": "Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+   },
+   {
+    "name": "Hold Breath",
+    "text": "You can hold your breath for up to 1 hour at a time. Tortles aren't natural swimmers, but they can remain underwater for some time before needing to come up for air."
+   },
+   {
+    "name": "Natural Armor",
+    "text": "Due to your shell and the shape of your body, you are ill-suited to wearing armor. Your shell provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal."
+   },
+   {
+    "name": "Shell Defense",
+    "text": "You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are prone, your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell."
+   },
+   {
+    "name": "Survival Instinct",
+    "text": "You gain proficiency in the Survival skill. Tortles have finely honed survival instincts."
+   }
+  ],
+  "naturalAC": {
+   "base": 17,
+   "ability": null,
+   "note": "Shell: AC 17, Dex does not apply"
+  }
+ },
+ {
+  "id": "triton",
+  "name": "Triton",
+  "description": "Tritons guard the ocean depths, building small settlements beside deep trenches, portals to the elemental planes, and other dangerous spots far from the eyes of land-bound folk. Long-established guardians of the deep ocean floor, the noble tritons have gradually become increasingly active in the world above.",
+  "age": "Tritons reach maturity around age 15 and can live up to 200 years.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30,
+   "swim": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "STR": 1,
+    "CON": 1,
+    "CHA": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Primordial"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [
+   "cold"
+  ],
+  "traits": [
+   {
+    "name": "Amphibious",
+    "text": "You can breathe air and water."
+   },
+   {
+    "name": "Control Air and Water",
+    "text": "A child of the sea, you can call on the magic of elemental air and water. You can cast Fog Cloud with this trait. Starting at 3rd level, you can cast Gust of Wind with it, and starting at 5th level, you can also cast Wall of Water with it. Once you cast a spell with this trait, you can't cast that spell with it again until you finish a long rest. Charisma is your spellcasting ability for these spells."
+   },
+   {
+    "name": "Darkvision",
+    "text": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Emissary of the Sea",
+    "text": "Aquatic beasts have an extraordinary affinity with your people. You can communicate simple ideas with beasts that can breathe water. They can understand the meaning of your words, though you have no special ability to understand them in return."
+   },
+   {
+    "name": "Guardians of the Depths",
+    "text": "Adapted to even the most extreme ocean depths, you have resistance to cold damage."
+   }
+  ]
+ },
+ {
+  "id": "fairy",
+  "name": "Fairy",
+  "description": "The Feywild is home to many fantastic peoples, including fairies. Fairies are a wee folk, but not nearly as much so as their pixie and sprite friends. The first fairies spoke Elvish, Goblin, or Sylvan, and encounters with human visitors prompted many of them to learn Common as well. Infused with the magic of the Feywild, most fairies look like Small elves with insectile wings, but each fairy has a special physical characteristic that sets the fairy apart. For your fairy, roll on the Fey Characteristics table or choose an option from it. You're also free to come up with your own characteristic if none of the suggestions below fit your character.",
+  "age": "Fairies have a life span of about a century.",
+  "size": "Small",
+  "type": "Fey",
+  "speed": {
+   "walk": 30,
+   "fly": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "flexible": true
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Fairy Magic",
+    "text": "You know the Druidcraft cantrip. Starting at 3rd level, you can cast the Faerie Fire spell with this trait. Starting at 5th level, you can also cast the Enlarge/Reduce spell with this trait. Once you cast Faerie Fire or Enlarge/Reduce with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+   },
+   {
+    "name": "Flight",
+    "text": "Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor."
+   }
+  ]
+ },
+ {
+  "id": "yuan-ti",
+  "name": "Yuan-ti",
+  "description": "The serpent creatures known as yuan-ti are all that remains of an ancient, decadent human empire. Yuan-ti purebloods are the most human-looking of their kind, able to pass among other folk while serving their serpent gods.",
+  "age": "Purebloods mature at the same rate as humans and have lifespans similar in length to theirs.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "CHA": 2,
+    "INT": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Abyssal",
+    "Draconic"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Innate Spellcasting",
+    "text": "You know the Poison Spray cantrip. You can cast Animal Friendship an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast Suggestion with this trait. Once you cast it, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells."
+   },
+   {
+    "name": "Magic Resistance",
+    "text": "You have advantage on saving throws against spells and other magical effects."
+   },
+   {
+    "name": "Poison Immunity",
+    "text": "You are immune to poison damage and the poisoned condition."
+   }
+  ]
+ },
+ {
+  "id": "kender",
+  "name": "Kender",
+  "description": "During the mythical origins of Krynn, Reorx, god of craft, indulged in an age of unfettered creation. Many peoples sprang from his divine forge, but not all among them remained as the god created them. Altered by unbridled magic, a group of gnomes were transformed and given almost supernatural curiosity and fearlessness. These were the first kender. Originating on the world of Krynn, kender are diminutive Humanoids who look like humans with pointed ears and diverse appearances. Kender have a supernatural curiosity that drives them to adventure. Due to this inquisitiveness, many kender find themselves falling through portals to other planes and worlds. Kender sometimes amass impressive collections of curiosities. Some might collect mundane knickknacks or relics from magical sites, while others might become professional thieves.",
+  "age": null,
+  "size": "Small",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "flexible": true
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [],
+   "choose": {
+    "n": 1,
+    "from": [
+     "Insight",
+     "Investigation",
+     "Sleight of Hand",
+     "Stealth",
+     "Survival"
+    ]
+   }
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Fearless",
+    "text": "You have advantage on saving throws you make to avoid or end the frightened condition on yourself. When you fail a saving throw to avoid or end the frighted condition on yourself, you can choose to succeed instead. Once you succeed on a saving throw in this way, you can't do so again until you finish a long rest."
+   },
+   {
+    "name": "Kender Aptitude",
+    "text": "Thanks to the mystical origin of your people, you gain proficiency with one of the following skills of your choice: Insight, Investigation, Sleight of Hand, Stealth, or Survival."
+   },
+   {
+    "name": "Taunt",
+    "text": "You have an extraordinary ability to fluster creatures. As a bonus action, you can unleash a string of provoking words at a creature within 60 feet of yourself that can hear and understand you. The target must succeed on a Wisdom saving throw or it has disadvantage on attack rolls against targets other than you until the start of your next turn. The DC equals 8 + your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race). You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+   }
+  ]
+ },
+ {
+  "id": "owlin",
+  "name": "Owlin",
+  "description": "Distant kin of giant owls from the Feywild, owlin come in many shapes and sizes, from petite and fluffy to wide-winged and majestic. Owlin have arms and legs like other Humanoids, as well as wings that extend from their back and shoulders.Like owls, owlin are graced with feathers that make no sound when they move or fly, making it easy for them to sneak up on you in the library.Your owlin character might be nocturnal. Or perhaps your character is simply prone to rise later, embodying the common nickname of night owl.",
+  "age": null,
+  "size": "Medium or Small",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30,
+   "fly": 30
+  },
+  "darkvision": 120,
+  "asi": {
+   "flexible": true
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [
+    "Stealth"
+   ],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "You can see in dim light within 120 feet of yourself as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+   },
+   {
+    "name": "Flight",
+    "text": "Thanks to your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor."
+   },
+   {
+    "name": "Silent Feathers",
+    "text": "You have proficiency in the Stealth skill."
+   }
+  ]
+ },
+ {
+  "id": "loxodon",
+  "name": "Loxodon",
+  "description": "Loxodons are often oasis of calm in Ravnica. They hum or chant in sonorous tones and move slowly or sit in perfect stillness. As they say, \"There are three things all wise men fear: the sea in storm, a night with no moon, and the anger of a gentle man.\"",
+  "age": "Loxodons mature at the same rate as humans, however, they are considered mature by their people at 60 years old. Their lifespan can be as long as 450 years.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "CON": 2,
+    "WIS": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Loxodon"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Powerful Build",
+    "text": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+   },
+   {
+    "name": "Loxodon Serenity",
+    "text": "You have advantage against being charmed or frightened."
+   },
+   {
+    "name": "Natural Armour",
+    "text": "You have thick, leathery skin. When you aren't wearing armor, your AC is 12 + your Constitution modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+   },
+   {
+    "name": "Trunk",
+    "text": "You can grasp things with your trunk, and you can use it as a snorkel. It has a reach of 5 feet, and it can lift a number of pounds equal to five times your Strength score. You can use it to do the following simple tasks: lift, drop, hold, push, or pull an object or a creature; open or close a door or a container; grapple someone; or make an unarmed strike. Your DM might allow other simple tasks to be added to that list of options. It can't wield weapons or shields or do anything that requires manual precision, such as using tools or magic items or performing the somatic components of a spell."
+   },
+   {
+    "name": "Keen Smell",
+    "text": "Thanks to your sensitive trunk, you have advantage on Wisdom (Perception), Wisdom (Survival), and Intelligence (Investigation) checks that involve smell."
+   }
+  ],
+  "naturalAC": {
+   "base": 12,
+   "ability": "CON"
+  }
+ },
+ {
+  "id": "giff",
+  "name": "Giff",
+  "description": "Giff are tall, broad-shouldered folk with hippo-like features. Some have smooth skin, while others have short bristles on their faces and the tops of their heads. As beings of impressive size and unforgettable appearance, giff are noticed wherever they go.Most giff believe they originated on one world, but their home world is now the stuff of legend, because no living giff has seen it or knows where it is. The divine beings who created giff have likewise been forgotten. Their titanic petrified bodies drift on the Astral Sea, isolated and unrecognizable in their current form.Although they don't realize it, giff are drawn to the Astral Plane because, on a deep psychic level, they remain connected to their creator gods, who have just enough divine spark left in them to imbue giff with sparks of their own, which giff have learned to channel through their weapons. Most giff have no idea where this so-called astral spark comes from, but they feel its presence most strongly when they are in Wildspace or the Astral Sea.Giff are split into two camps concerning how their name is pronounced. Half of them say it with a hard g, half with a soft g. Disagreements over the correct pronunciation often blossom into hard feelings, loud arguments, and head-butting contests, but they rarely escalate beyond that.",
+  "age": null,
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30,
+   "swim": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "flexible": true
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Astral Spark",
+    "text": "Your psychic connection to the Astral Plane enables you to mystically access a spark of divine power, which you can channel through your weapons. When you hit a target with a simple or martial weapon, you can cause the target to take extra force damage equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, but you can use it no more than once per turn. You regain all expended uses when you finish a long rest."
+   },
+   {
+    "name": "Firearms Mastery",
+    "text": "You have a mystical connection to firearms that traces back to the gods of the giff, who delighted in such weapons. You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn't impose disadvantage on your attack roll."
+   },
+   {
+    "name": "Hippo Build",
+    "text": "You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+   }
+  ]
+ },
+ {
+  "id": "verdan",
+  "name": "Verdan",
+  "description": "Verdan owe their existence to chaos. Descendants of goblins and hobgoblins, transformed by the shadow of That-Which-Endures. They are THE newest race of Faerûn.",
+  "age": "Verdan reach adulthood at age 24 and live up to 200 years. Saying this, none have yet to reach old age, so the top age is is just speculation.",
+  "size": "Small",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "CHA": 2,
+    "CON": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Goblin"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [
+    "Persuasion"
+   ],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Black Blood Healing",
+    "text": "When you roll either 1 or 2 on any Hit Die, you can instantly re-roll the die and take the new roll."
+   },
+   {
+    "name": "Limited Telepathy",
+    "text": "You can telepathically speak to any creature within 30 feet. You do not have to share a language to speak, however, they must be able to speak a language. You can only communicate simple ideas."
+   },
+   {
+    "name": "Persuasive",
+    "text": "Your people's lack of history makes you trustworthy and humble. You have proficiency in the Persuasion skill."
+   },
+   {
+    "name": "Telepathic Insight",
+    "text": "You have advantage on all Wisdom and Charisma saving throws."
+   }
+  ]
+ },
+ {
+  "id": "hadozee",
+  "name": "Hadozee",
+  "description": "Hadozees' progenitors were mammals no bigger than housecats. Hunted by larger natural predators, they took to the trees and evolved wing-like flaps that enabled them to glide from branch to branch. Today, hadozees are sapient, bipedal beings eager to leave behind the fearsome predators of their homeworld and explore other worlds. In addition to being natural climbers, hadozees have feet that are as dexterous as their hands, even to the extent of having opposable thumbs. Membranes of skin hang loosely from their arms and legs. When stretched taut, these membranes enable hadozees to glide. Hadozees wrap these wings around themselves to keep warm.",
+  "age": null,
+  "size": "Medium or Small",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30,
+   "climb": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "flexible": true
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Dexterous Feet",
+    "text": "As a bonus action, you can use your feet to manipulate an object, open or close a door or container, or pick up or set down a Tiny object."
+   },
+   {
+    "name": "Glide",
+    "text": "When you fall at least 10 feet above the ground, you can use your reaction to extend your skin membranes to glide horizontally a number of feet equal to your walking speed, and you take 0 damage from the fall. You determine the direction of the glide."
+   },
+   {
+    "name": "Hadozee Resilience",
+    "text": "The magic that runs in your veins heightens your natural defenses. When you take damage, you can use your reaction to roll a d6. Add your proficiency bonus to the number rolled, and reduce the damage you take by an amount equal to that total (minimum of 0 damage). You can use this trait a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest."
+   }
+  ]
+ },
+ {
+  "id": "plasmoid",
+  "name": "Plasmoid",
+  "description": "Plasmoids are amorphous beings with no typical shape. In the presence of other folk, they often adopt a similar shape, but there's little chance of mistaking a plasmoid for anything else. They consume food by osmosis, the way an amoeba does, and excrete waste through tiny pores. They breathe by absorbing oxygen through another set of pores, and their limbs are strong and flexible enough to grasp and manipulate weapons and tools. Although most plasmoids are translucent gray, they can alter their color and translucence by absorbing dyes through their pores.Plasmoids don't have internal organs of the usual sort. Their bodies are composed of cells, fibers, plasma-like ooze, and clusters of nerves. These nerves enable a plasmoid to detect light, heat, texture, sound, pain, and vibrations. Plasmoids can stiffen the outer layers of their bodies to maintain a humanlike shape, so they can wear clothing and accessories. They speak by forcing air out of tubular cavities that constrict to produce sound. When plasmoids sleep, they lose their rigidity and spread out and are thus sometimes mistaken for a rock or some other feature of the environment.",
+  "age": null,
+  "size": "Medium or Small",
+  "type": "Ooze",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "flexible": true
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [
+   "acid",
+   "poison"
+  ],
+  "traits": [
+   {
+    "name": "Amorphous",
+    "text": "You can squeeze through a space as narrow as 1 inch wide, provided you are wearing and carrying nothing. You also have advantage on ability checks you make to initiate or escape a grapple."
+   },
+   {
+    "name": "Darkvision",
+    "text": "You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+   },
+   {
+    "name": "Hold Breath",
+    "text": "You can hold your breath for 1 hour."
+   },
+   {
+    "name": "Natural Resilience",
+    "text": "You have resistance to acid and poison damage, and you have advantage on saving throws against being poisoned."
+   },
+   {
+    "name": "Shape Self",
+    "text": "As an action, you can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob. While you have a humanlike shape, you can wear clothing and armor made for a Humanoid of your size. As a bonus action, you can extrude a pseudopod that is up to 6 inches wide and 10 feet long or reabsorb it into your body. As part of the same bonus action, you can use this pseudopod to manipulate an object, open or close a door or container, or pick up or set down a Tiny object. The pseudopod contains no sensory organs and can't attack, activate magic items, or lift more than 10 pounds."
+   }
+  ]
+ },
+ {
+  "id": "thri-kreen",
+  "name": "Thri-kreen",
+  "description": "Thri-kreen have insectile features and two pairs of arms. Their bodies are encased in protective chitin. They can alter the coloration of this carapace to blend in with their natural surroundings. Although thri-kreen don't sleep, they do require periods of inactivity to revitalize themselves. During these periods, they are fully aware of what's happening around them. Thri-kreen speak by clacking their mandibles and waving their antennae, indicating to other thri-kreen what they are thinking and feeling. Other creatures find this method of communication difficult to interpret and impossible to duplicate. To interact with other folk, thri-kreen rely on a form of telepathy.",
+  "age": null,
+  "size": "Medium or Small",
+  "type": "Monstrosity",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "flexible": true
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Chameleon Carapace",
+    "text": "While you aren't wearing armor, your carapace gives you a base Armor Class of 13 + your Dexterity modifier. As an action, you can change the color of your carapace to match the color and texture of your surroundings, giving you advantage on Dexterity (Stealth) checks made to hide in those surroundings."
+   },
+   {
+    "name": "Darkvision",
+    "text": "You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+   },
+   {
+    "name": "Secondary Arms",
+    "text": "You have two slightly smaller secondary arms below your primary pair of arms. The secondary arms can manipulate an object, open or close a door or container, pick up or set down a Tiny object, or wield a weapon that has the light property."
+   },
+   {
+    "name": "Sleepless",
+    "text": "You do not require sleep and can choose to remain conscious during a long rest, though you must still refrain from strenuous activity to gain the benefit of the rest."
+   },
+   {
+    "name": "Thri-kreen Telepathy",
+    "text": "Without the assistance of magic, you can't speak the non-thri-kreen languages you know. Instead you use telepathy to convey your thoughts. You have the magical ability to transmit your thoughts mentally to willing creatures you can see within 120 feet of yourself. A contacted creature doesn't need to share a language with you to understand your thoughts, but it must be able to understand at least one language. Your telepathic link to a creature is broken if you and the creature move more than 120 feet apart, if either of you is incapacitated, or if either of you mentally breaks the contact (no action required)."
+   }
+  ],
+  "naturalAC": {
+   "base": 13,
+   "ability": "DEX"
+  }
+ },
+ {
+  "id": "leonin",
+  "name": "Leonin",
+  "description": "The leonin guard the shining lands of Oreskos, a golden plain where even the gods rarely trespass. Prides of these nomadic, lion-like humanoids rarely interact with other peoples, having all they need in their shimmering homeland and knowing the treachery of strangers. Still, some leonin wonder what lies beyond Oreskos's border mountains and seek to test themselves in a wider world.",
+  "age": "Leonin mature and age at about the same rate as humans.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 35
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "CON": 2,
+    "STR": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Leonin"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": {
+    "n": 1,
+    "from": [
+     "Athletics",
+     "Intimidation",
+     "Perception",
+     "Survival"
+    ]
+   }
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Claws",
+    "text": "Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal slashing damage equal to 1d4 + your Strength modifier."
+   },
+   {
+    "name": "Hunter's Instincts",
+    "text": "You have proficiency in one of the following skills of your choice: Athletics, Intimidation, Perception, or Survival."
+   },
+   {
+    "name": "Daunting Roar",
+    "text": "As a bonus action, you can let out an especially menacing roar. Creatures of your choice within 10 feet of you that can hear you must succeed on a Wisdom saving throw or become frightened of you until the end of your next turn. The DC of the save equals 8 + your proficiency bonus + your Constitution modifier. Once you use this trait, you can't use it again until you finish a short or long rest."
+   }
+  ]
+ },
+ {
+  "id": "grung",
+  "name": "Grung",
+  "description": "Grungs are aggressive froglike humanoids found in rain forests and tropical jungles. They are fiercely territorial and see themselves as superior to most other creatures.Grung society is a caste system. Each caste lays eggs in a separate hatching pool, and juvenile grungs join their caste upon emergence from the hatchery. All grungs are a dull greenish gray when they are born, but each individual takes on the color of its caste as it grows to adulthood. From lowest to highest caste, grungs can be green, blue, purple, red, orange, or gold.All grungs secrete a substance that is harmless to them but poisonous to other creatures. A grung also uses venom to poison its weapons. Grungs are always on the lookout for creatures they can capture and enslave. Grungs use slaves for all manner of menial tasks, but mostly they just like bossing them around. Slaves are fed mildly poisoned food to keep them lethargic and compliant. A creature afflicted in this way over a long period of time becomes a shell of its former self and can be restored to normalcy only by magic. Being amphibious, grungs require water to live; any grung that fails to immerse itself in water for at least 1 hour during a day becomes quite exhausted.Green grungs are the tribe's warriors, hunters, and laborers, and blue grungs work as artisans and in other domestic roles. Supervising and guiding both groups are the purple grungs, which serve as administrators and commanders. Red grungs are the tribe's scholars and magic users. They are superior to purple, blue, and green grungs and given proper respect even by grungs of higher status. Higher castes include orange grungs, which are elite warriors that have authority over all lesser grungs, and gold grungs, which hold the highest leadership positions. A tribe's sovereign is always a gold grung.A grung normally remains in its caste for life. On rare occasions, an individual that distinguishes itself with great deeds can earn an invitation to join a higher caste. Through a combination of herbal tonics and ritual magic, an elevated grung changes color and is inducted into its new caste in the same way that a juvenile of the caste would be. From then on, the grung and its progeny are members of the higher caste.",
+  "age": "Grungs mature to adulthood in a single year, but have been known to live up to 50 years.",
+  "size": "Small",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 25,
+   "climb": 25
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "DEX": 2,
+    "CON": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Grung"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [
+    "Perception"
+   ],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Arboreal Alertness",
+    "text": "You have proficiency in the Perception skill."
+   },
+   {
+    "name": "Amphibious",
+    "text": "You can breathe air and water."
+   },
+   {
+    "name": "Poison Immunity",
+    "text": "You are immune to poison damage and the poisoned condition."
+   },
+   {
+    "name": "Poisonous Skin",
+    "text": "Any creature that grapples you or otherwise comes into direct contact with your skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with you can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. You can also apply this poison to any piercing weapon as part of an attack with that weapon, though when you hit the poison reacts differently. The target must succeed on a DC 12 Constitution saving throw or take 2d4 poison damage."
+   },
+   {
+    "name": "Standing Leap",
+    "text": "Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start."
+   },
+   {
+    "name": "Water Dependency",
+    "text": "If you fail to immerse yourself in water for at least 1 hour during a day, you suffer 1 level of exhaustion at the end of that day. You can recover from this exhaustion only through magic or by immersing yourself in water for at least 1 hour."
+   }
+  ]
+ },
+ {
+  "id": "warforged",
+  "name": "Warforged",
+  "description": "The warforged were built to fight in the Last War. The first warforged were mindless automatons, but House Cannith devoted vast resources to improving these steel soldiers. An unexpected breakthrough produced fully sentient soldiers, blending organic and inorganic materials. Warforged are made from wood and metal, but they can feel pain and emotion. Built as weapons, they must now find a purpose beyond the war. A warforged can be a steadfast ally, a cold-hearted killing machine, or a visionary in search of purpose and meaning.",
+  "age": "A typical warforged is between two and thirty years old. The maximum lifespan of the warforged remains a mystery; so far, warforged have shown no signs of deterioration due to age. You are immune to magical aging effects.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "CON": 2
+   },
+   "choose": [
+    {
+     "count": 1,
+     "amount": 1
+    }
+   ]
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [],
+   "choose": {
+    "n": 1,
+    "from": [
+     "Acrobatics",
+     "Animal Handling",
+     "Arcana",
+     "Athletics",
+     "Deception",
+     "History",
+     "Insight",
+     "Intimidation",
+     "Investigation",
+     "Medicine",
+     "Nature",
+     "Perception",
+     "Performance",
+     "Persuasion",
+     "Religion",
+     "Sleight of Hand",
+     "Stealth",
+     "Survival"
+    ]
+   }
+  },
+  "resistances": [
+   "poison"
+  ],
+  "traits": [
+   {
+    "name": "Constructed Resilience",
+    "text": "You were created to have remarkable fortitude, represented by the following benefits: You have advantage on saving throws against being poisoned, and you have resistance to poison damage. You don't need to eat, drink, or breathe. You are immune to disease. You don't need to sleep, and magic can't put you to sleep."
+   },
+   {
+    "name": "Sentry's Rest",
+    "text": "When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you unconscious, and you can see and hear as normal."
+   },
+   {
+    "name": "Integrated Protection",
+    "text": "Your body has built-in defensive layers, which can be enhanced with armor. You gain a +1 bonus to Armor Class. You can don only armor with which you have proficiency. To don armor, you must incorporate it into your body over the course of 1 hour, during which you must remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning or doffing armor in this way. While you live, your armor can't be removed from your body against your will."
+   },
+   {
+    "name": "Specialized Design",
+    "text": "You gain one skill proficiency and one tool proficiency of your choice."
+   }
+  ],
+  "acBonus": 1
+ },
+ {
+  "id": "aarakocra",
+  "name": "Aarakocra",
+  "description": "Sequestered in high mountains atop tall trees, the aarakocra evoke fear and wonder. Many of these birdfolk hail from the boundless vistas of the Elemental Plane of Air. They are immigrants, refugees, scouts, and explorers, their outposts functioning as footholds in a world both strange and alien.",
+  "age": "Aarakocra reach maturity by age 3. Compared to humans, aarakocra don't usually live longer than 30 years.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 25,
+   "fly": 50
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "DEX": 2,
+    "WIS": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Auran",
+    "Aarakocra"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Flight",
+    "text": "You have a flying speed of 50 feet. To use this speed, you can't be wearing medium or heavy armor."
+   },
+   {
+    "name": "Talons",
+    "text": "You are proficient with your unarmed strikes, which deal 1d4 slashing damage on a hit."
+   }
+  ]
+ },
+ {
+  "id": "kalashtar",
+  "name": "Kalashtar",
+  "description": "The kalashtar are a compound race created from the union of humanity and renegade spirits from the plane of dreams – spirits called quori. Kalashtar are often seen as wise, spiritual people with great compassion for others. But there is an unmistakable alien quality to the kalashtar, as they are haunted by the conflicts of their otherworldly spirits.",
+  "age": "Kalashtar develop physically at the same rate as humans do and have similar lifespans.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "WIS": 2,
+    "CHA": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Quori"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [
+   "psychic"
+  ],
+  "traits": [
+   {
+    "name": "Dual Mind",
+    "text": "You have advantage on all Wisdom saving throws."
+   },
+   {
+    "name": "Mental Discipline",
+    "text": "You have resistance to psychic damage."
+   },
+   {
+    "name": "Mind Link",
+    "text": "You can speak telepathically to any creature you can see, provided the creature is within a number of feet of you equal to 10 times your level. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language. When you're using this trait to speak telepathically to a creature, you can use your action to give that creature the ability to speak telepathically with you for 1 hour or until you end this effect as an action. To use this ability, the creature must be able to see you and must be within this trait's range. You can give this ability to only one creature at a time; giving it to a creature takes it away from another creature who has it."
+   },
+   {
+    "name": "Severed from Dreams",
+    "text": "Kalashtar sleep, but they don't connect to the plane of dreams as other creatures do. Instead, their minds draw from the memories of their otherworldly spirit while they sleep. As such, you are immune to magical spells and effects that require you to dream, like the Dream spell, but not to spells and effects that put you to sleep, like the Sleep spell."
+   }
+  ]
+ },
+ {
+  "id": "locathah",
+  "name": "Locathah",
+  "description": "These resilient and proud fish-folk have endured war, slavery, and mistreatment at the hands of other aquatic creatures. They dwell in submerged tribal communities along seacoasts, and hunt both above and below the water.",
+  "age": "Locathah mature to adulthood by the age of 10 but have been known to live up to 80 years.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30,
+   "swim": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "STR": 2,
+    "DEX": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Aquan"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [
+    "Athletics",
+    "Perception"
+   ],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Natural Armor",
+    "text": "You have tough, scaly skin. When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+   },
+   {
+    "name": "Observant and Athletic",
+    "text": "You have proficiency in the Athletics and Perception skills."
+   },
+   {
+    "name": "Leviathan Will",
+    "text": "You have advantage on saving throws against being charmed, frightened, paralyzed, poisoned, stunned, or put to sleep."
+   },
+   {
+    "name": "Limited Amphibiousness",
+    "text": "You can breathe air and water, but you need to be submerged at least once every 4 hours to avoid suffocating."
+   }
+  ],
+  "naturalAC": {
+   "base": 12,
+   "ability": "DEX"
+  }
+ },
+ {
+  "id": "simic-hybrid",
+  "name": "Simic Hybrid",
+  "description": "The Simic Combine uses magic to fuse different life forms together. In recent years, they have extended this research to humanoid subjects, magically transferring the traits of various animals into humans, elves, and vedalken. The goal of the so-called Guardian Project is to build a Simic army of superior soldiers, perfectly adapted to a variety of combat situations. These hyper-evolved specimens are called Simic hybrids, though they sometimes call themselves guardians. Simic Hybrid Race Details",
+  "age": "Simic Hybrids are created at adulthood as either humans, vedalkens, or elves. Their maximum life expectancy is probably reduced.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "CON": 2
+   },
+   "choose": [
+    {
+     "count": 1,
+     "amount": 1
+    }
+   ]
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 1,
+   "from": [
+    "Elvish",
+    "Vedalken"
+   ]
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Animal Enhancements",
+    "text": "Your body has been altered with animal characteristics. You choose one animal enhancement now and one at 5th level. Manta Glide (1st level). You have ray-like fins that you use as wings to slow your fall or allow you to glide. When you fall and are not incapacitated, you can subtract up to 100 feet from your fall when calculating your fall damage and can move horizontally 2 feet for every 1 foot you fall. Nimble Climber (1st level). You have a climb speed equal to your walk speed. Underwater Adaptation (1st level). You can breathe air and water, and you gain a swim speed equal to your walking speed. Grappling Appendages (5th level). You have two special appendages growing alongside with your arms. Choose whether they're both claws or tentacles. As an action, you can use one of them to grapple a creature. Each one is also a natural weapon, which you can use to make an unarmed strike with. If you hit, they do 1D6 + your Strength modifier bludgeon damage. Immediately after hitting, you can try to grapple the target as a bonus action. These appendages are not dexterous enough to use weapons, magic weapons, and other specialized equipment. Carapace (5th level). Your skin in places is covered by a thick shell. You gain a +1 to your AC when not wearing heavy armour. Acid Spit (5th level). As an action, you can spray acid from glands in your mouth, targeting one creature or object you can see within 30 feet of you. The target must make a Dexterity saving throw against a DC of 8 + your proficiency bonus + your Constitution modifier. The target takes 2D10 acid damage if they fail. The damage increases to 3D10 at 11th level and 4D10 at 17th level. You can use this up to your Constitution modifier's worth of times per long rest."
+   }
+  ]
+ },
+ {
+  "id": "vedalken",
+  "name": "Vedalken",
+  "description": "Vedalken are tall and slender, standing almost a head taller than humans but weighing about the same. Their hairless skin comes in a range of shades of blue. Their eyes are darker shades of blue or violet. They lack external ears, their noses are broad and flat, and they are partially amphibious.",
+  "age": "Vedalken mature slower than humans do. reaching maturity around age 40. Their life span is typically 350 years, with some living to the age of 500.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "INT": 2,
+    "WIS": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Vedalken"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [],
+   "choose": {
+    "n": 1,
+    "from": [
+     "Arcana",
+     "History",
+     "Investigation",
+     "Medicine",
+     "Performance",
+     "Sleight of Hand"
+    ]
+   }
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Vedalken Dispassion",
+    "text": "You have advantage on all Intelligence, Wisdom, and Charisma Saving Throws."
+   },
+   {
+    "name": "Tireless Precision",
+    "text": "You are proficient in one of the following skills of your choice: Arcana, History, Investigation, Medicine, Performance, or Sleight of Hand. You are also proficient with one tool of your choice. Whenever you make an ability check with the chosen skill or tool, roll a d4 and add the number rolled to the check's total."
+   },
+   {
+    "name": "Partially Amphibious",
+    "text": "By absorbing oxygen through your skin, you can breathe underwater for up to 1 hour. Once you've reached that limit, you can't use this trait again until you finish a long rest."
+   }
+  ]
+ },
+ {
+  "id": "aetherborn",
+  "name": "Aetherborn",
+  "description": "Aetherborn come into being spontaneously as part of the aether refinement process. Their bodies and minds are apparently formed out of some interaction between the volatile elements of aether that are removed during refinement and the psychic impressions created by the people involved in the process. But each aetherborn is a unique individual, not a mere copy of some other person's mind and shape. This race is little understood, and few aetherborn are willing to waste any of their short lives allowing vedalken scholars to study their biological and psychological characteristics. Aetherborn are a strange living by-product of the process of aether refinement, cast in humanoid form but lacking any of the biological qualities of other races. They don't eat or sleep, and they don't reproduce—nor do they have any physical sexual characteristics. Language that categorizes people into male or female categories thus breaks down when it comes to aetherborn. Most aetherborn prefer that others use the pronoun “they” to refer to them, since it doesn't attribute a gender that they don't possess. Only a relative few prefer “he” or “she,” having chosen to adopt a gender.",
+  "age": "Aetherborn come into being as adults and live no more than a few years.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "CHA": 2
+   },
+   "choose": [
+    {
+     "count": 2,
+     "amount": 1
+    }
+   ]
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 2
+  },
+  "skills": {
+   "fixed": [
+    "Intimidation"
+   ],
+   "choose": null
+  },
+  "resistances": [
+   "necrotic"
+  ],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "Accustomed to the night, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Born of Aether",
+    "text": "You have resistance to necrotic damage."
+   },
+   {
+    "name": "Menacing",
+    "text": "You gain proficiency in the Intimidation skill."
+   }
+  ]
+ },
+ {
+  "id": "khenra",
+  "name": "Khenra",
+  "description": "The khenra of Amonkhet are tall and lean, with graceful bodies and heads that strongly resemble jackals. Their snouts are long and sharp, and their angular ears rise straight above their heads. Their bodies are covered in dark, sleek hair that ranges from the brown of the desert sands to ebony black. Despite their sharp teeth, they consider biting to be an uncouth and unworthy combat tactic. Nearly every khenra is born a fraternal or identical twin, and a pair of khenra twins forms an extremely close emotional bond unknown to most other residents of Amonkhet. The death of one twin in training or the trials causes a tremendous shock to the survivor, who typically grows more aggressive and foolhardy in battle. The rare khenra who are born without twins are believed to have killed their siblings in the womb, and are thus viewed as natural-born initiates, sure to achieve a glorified death in the Trial of Zeal.",
+  "age": "Khenra mature quickly, reaching adulthood in their early teens. Khenra initiates are usually the youngest in a crop, completing the trials by their late teens. Even without a violent death, they rarely live past 60.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 35
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "DEX": 2,
+    "STR": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Khenra"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Khenra Weapon Training",
+    "text": "You have proficiency with the khopesh, spear, and javelin."
+   },
+   {
+    "name": "Khenra Twins",
+    "text": "If your twin is alive and you can see your twin, whenever you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll. If your twin is dead (or if you were born without a twin), you can't be frightened."
+   }
+  ],
+  "weapons": [
+   "Khopesh",
+   "Spear",
+   "Javelin"
+  ]
+ },
+ {
+  "id": "kor",
+  "name": "Kor",
+  "description": "Deeply reverent of the land and its sacred sites, the nomadic kor live a spare existence defined by their constant travels. Masters of ropes and hooks, they scale sheer cliffs and cross yawning chasms with such skill and agility that they sometimes seem almost to take flight. Kor are tall, slender humanoids with light hair and gray, blue-gray, or ivory skin. All kor have slightly pointed ears, and males have short, fleshy barbels on their chins. They paint softly glowing geometric patterns on their faces and bodies, suggestive of the shapes and design of the hedrons that appear across Zendikar. Their clothing tends to leave their arms and shoulders free to facilitate climbing, and they keep most of their gear in pouches and slings at their waists. The kor have a nonverbal language of hand signs and gestures that allows communication despite significant distance (particularly when augmented with whirling ropes) or howling winds. They also use this sign language among themselves when they wish to avoid being overheard, giving rise to misguided rumors that they are incapable of speech. When they do speak, they typically use as few words as possible to convey their meaning.",
+  "age": "Kor mature at the same rate as humans and live about as long.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30,
+   "climb": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "DEX": 2,
+    "WIS": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [
+    "Acrobatics",
+    "Athletics"
+   ],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Kor Climbing",
+    "text": "You have proficiency in the Athletics and Acrobatics skills."
+   },
+   {
+    "name": "Lucky",
+    "text": "When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+   },
+   {
+    "name": "Brave",
+    "text": "You have advantage on saving throws against being frightened."
+   }
+  ]
+ },
+ {
+  "id": "merfolk",
+  "name": "Merfolk",
+  "description": "Merfolk are an amphibious race, born and at home in the water but comfortable on dry land. Humanoid in form, they have skin of ivory, silver, russet, blue, or deep purple. Long fins extend from the backs of their forearms and calves, and their fingers and toes are webbed. The hairlike growths on their heads are either thick and bristly like the needles of a sea urchin, or long and wavy, resembling fine seaweed. In either case, these growths typically range in color from red to warm brown to black. Male merfolk have similar growths extending down from their cheekbones. The River Heralds are merfolk—a race of amphibious humanoids at home throughout the oceans, rivers, and rain forests of Ixalan. They stand between seven and eight feet tall, with skin that ranges from deep burgundy through many shades of violet and blue, to green, bright orange, and yellow. They are humanlike in shape, but have long fins extending from their shoulders, forearms, middle backs, and calves. Frills of fins also protrude from the backs of their heads. All merfolk can breathe air or filter oxygen from the water, and they can walk on land or swim with equal ease.",
+  "age": "Merfolk mature at the same rate humans do and reach adulthood around the age of 20. They live considerably longer than humans, though, often reaching well over 100 years.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30,
+   "swim": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "CHA": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Merfolk"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Amphibious",
+    "text": "You can breathe air and water."
+   }
+  ],
+  "subraces": [
+   {
+    "name": "Green Merfolk",
+    "asi": {
+     "fixed": {
+      "WIS": 2
+     }
+    },
+    "cantrip": "Druid",
+    "traits": [
+     {
+      "name": "Mask of the Wild",
+      "text": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+     },
+     {
+      "name": "Cantrip",
+      "text": "You know one cantrip of your choice from the Druid spell list. Wisdom is your spellcasting ability for it."
+     }
+    ]
+   },
+   {
+    "name": "Blue Merfolk",
+    "asi": {
+     "fixed": {
+      "INT": 2
+     }
+    },
+    "cantrip": "Wizard",
+    "skills": {
+     "fixed": [
+      "History",
+      "Nature"
+     ]
+    },
+    "traits": [
+     {
+      "name": "Lore of the Waters",
+      "text": "You gain proficiency in History and Nature."
+     },
+     {
+      "name": "Cantrip",
+      "text": "You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for it."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "naga",
+  "name": "Naga",
+  "description": "Naga resemble enormous snakes with shoulders, arms, and a torso that resembles a humanoid form. They typically hold their heads and torsos off the ground while moving, but they can increase their speed by lowering their bodies and using their hands for extra propulsion. They adorn their torsos with armor, jewelry, and a vague nod toward the clothing worn by other races. Male naga have broad hoods, wider than their shoulders, while females have narrower hoods and longer faces.",
+  "age": "Like humans, naga reach adulthood in their late teens. They show no signs of aging beyond that point except for growing larger, so in theory, a naga could live well over a century.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "CON": 2,
+    "INT": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Naga"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Speed Burst",
+    "text": "By lowering your body to the ground and propelling yourself with your arms, you can move more quickly for a time. As a bonus action on your turn, if you have both hands free, you can increase your walking speed by 5 feet until the end of your turn."
+   },
+   {
+    "name": "Natural Weapons",
+    "text": "Your fanged maw and constricting serpentine body are natural weapons, which you can use to make unarmed strikes. If you hit with your bite, you deal piercing damage equal to 1d4 + your Strength modifier, and your target must make a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier). On a failed save, the target takes 1d4 poison damage. If you hit with your constrict attack, you deal bludgeoning damage equal to 1d6 + your Strength modifier, and the target is grappled (escape DC 8 + your proficiency bonus + your Strength modifier). Until this grapple ends, the target is restrained, and you can't constrict another target."
+   },
+   {
+    "name": "Poison Immunity",
+    "text": "You are immune to poison damage and can't be poisoned."
+   },
+   {
+    "name": "Poison Affinity",
+    "text": "You gain proficiency with the poisoner's kit."
+   }
+  ]
+ },
+ {
+  "id": "siren",
+  "name": "Siren",
+  "description": "Sirens are at home along the waters of the Stormwreck Sea. They settle on rocky coasts and remote islands, and even on floating piles of kelp. Sirens are mercurial creatures who can turn in an instant from lonely to repulsed, from desirous to hateful, from welcoming to irritated, from loving to murderous—and then back again. They are fascinated with ships, and enjoy toying with them. One siren might call out to a passing crew for company, only to capriciously draw the ship into an entangling mass of kelp. Another might lure a vessel onto jagged rocks so as to study the wreckage and learn more about the strange contraption. But as the number of Brazen Coalition ships passing through siren-controlled waters has increased over the years, a growing number of sirens have decided to satisfy their curiosity by taking positions on ship crews—including, in at least one case, the position of captain. Sirens are humanoid creatures with birdlike features. Their long, slender arms extend into powerful wings that easily carry their light frames into the air. Their fingers bear sharp claws but are nimble enough to wield weapons and perform fine manipulation. Crests of feathery plumage start between their eyes and cover the backs of their heads.",
+  "age": null,
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 25,
+   "fly": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "fixed": {
+    "CHA": 2
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Siren"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Flight",
+    "text": "You have a flying speed of 30 feet. You can't use your flying speed while you wear medium or heavy armor. (If your campaign uses the variant rule for encumbrance, you can't use your flying speed if you are encumbered.)"
+   },
+   {
+    "name": "Siren's Song",
+    "text": "You know the Friends cantrip and can cast it without material components."
+   }
+  ]
+ },
+ {
+  "id": "vampire",
+  "name": "Vampire",
+  "description": "Vampires are associated with necromancy. Their existence is predicated on draining the life from others to fuel their own existence, and on putting their own lives ahead of all other concerns. Philosophically, they do not constrain themselves with artificial rules of morality, but believe that the strong can and should take what they need from the weak.",
+  "age": "Vampires don't mature and age in the same way that other races do.",
+  "size": "Medium",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "fixed": {
+    "CHA": 2,
+    "INT": 1
+   }
+  },
+  "languages": {
+   "fixed": [
+    "Common",
+    "Vampire"
+   ],
+   "choose": 0
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [
+   "necrotic"
+  ],
+  "traits": [
+   {
+    "name": "Darkvision",
+    "text": "Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+   },
+   {
+    "name": "Vampiric Resistance",
+    "text": "You have resistance to necrotic damage."
+   },
+   {
+    "name": "Bloodthirst",
+    "text": "You can drain blood and life energy from a willing creature, or one that is grappled by you, incapacitated, or restrained. Make a melee attack against the target. If you hit, you deal 1 piercing damage and 1d6 necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and you regain hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+   },
+   {
+    "name": "Feast of Blood",
+    "text": "When you drain blood with your Bloodthirst ability, you experience a surge of vitality. Your speed increases by 10 feet, and you gain advantage on Strength and Dexterity checks and saving throws for 1 minute."
+   }
+  ]
+ },
+ {
+  "id": "dhampir",
+  "name": "Dhampir",
+  "description": "Poised between the worlds of the living and the dead, dhampirs retain their grip on life yet are endlessly tested by vicious hungers. Their ties to the undead grant dhampirs a taste of a vampire's deathless prowess in the form of increased speed, darkvision, and a life-draining bite. With unique insights into the nature of the undead, many dhampirs become adventurers and monster hunters. Their reasons are often deeply personal. Some seek danger, imagining monsters as personifications of their own hungers. Others pursue revenge against whatever turned them into a dhampir. And still others embrace the solitude of the hunt, striving to distance themselves from those who'd tempt their hunger. Every dhampir knows a thirst slaked only by the living. Those who overindulge their thirst risk losing control and forever viewing others as prey. Those who resist might find exceptional ways of controlling their urges or suppress them through constant, molar-grinding restraint. In any case, temptation haunts dhampirs, and circumstances conspire to give them endless reasons to indulge. While many dhampirs thirst for blood, your character might otherwise gain sustenance from the living. Roll on or choose an option from the table to determine what tempts your character to feed. Dhampir Origins Dhampirs often arise from encounters with vampires, but all manner of macabre bargains, necromantic influences, and encounters with mysterious immortals might have transformed your character. The Dhampir Origins table provides suggestions for how your character gained their lineage.",
+  "age": null,
+  "size": "Medium or Small",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 35,
+   "climb": 35
+  },
+  "darkvision": 60,
+  "asi": {
+   "flexible": true
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [],
+   "choose": {
+    "n": 2,
+    "from": [
+     "Acrobatics",
+     "Animal Handling",
+     "Arcana",
+     "Athletics",
+     "Deception",
+     "History",
+     "Insight",
+     "Intimidation",
+     "Investigation",
+     "Medicine",
+     "Nature",
+     "Perception",
+     "Performance",
+     "Persuasion",
+     "Religion",
+     "Sleight of Hand",
+     "Stealth",
+     "Survival"
+    ]
+   }
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Ancestral Legacy",
+    "text": "If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it. If you don't keep any of those elements or you choose this lineage at character creation, you gain proficency in two skills of your choice."
+   },
+   {
+    "name": "Darkvision",
+    "text": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray."
+   },
+   {
+    "name": "Deathless Nature",
+    "text": "You don't need to breathe."
+   },
+   {
+    "name": "Spider Climb",
+    "text": "You have a climbing speed equal to your walking speed. In addition, at 3rd level, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free."
+   },
+   {
+    "name": "Vampiric Bite",
+    "text": "Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d4 piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite. When you attack with this bite and hit a creature that isn't a Construct or an Undead, you can empower yourself in one of the following ways of your choice: You regain hit points equal to the piercing damage dealt by the bite. You gain a bonus to the next ability check or attack roll you make; the bonus equals the piercing damage dealt by the bite. You can empower yourself with this bite a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+   }
+  ]
+ },
+ {
+  "id": "hexblood",
+  "name": "Hexblood",
+  "description": "Where wishing fails, ancient magic can offer a heart's desire—at least, for a time. Hexbloods are individuals infused with eldritch magic, fey energy, or mysterious witchcraft. Some who enter into bargains with hags gain their deepest wishes but eventually find themselves transformed. These changes evidence a hag's influence: ears that split in forked points, skin in lurid shades, long hair that regrows if cut, and an irremovable living crown. Along with these marks, hexbloods manifest hag-like traits, such as darkvision, and a variety of magical methods to beguile the senses and avoid the same. While many hexbloods gain their lineage after making a deal with a hag, others reveal their nature as they age—particularly if a hag influenced them early in life or even before their birth. Many hexbloods turn to lives of adventure, seeking to discover the mysteries of their magic, to forge a connection with their fey natures, or to avoid a hag that obsesses over them. One way hags create more of their kind is through the creation of hexbloods. Every hexblood exhibits features suggestive of the hag whose magic inspires their powers. This includes an unusual crown, often called a eldercross or witch's turn. This living, garland-like part of a hexblood's body extends from their temples and wraps behind the head, serving as a visible mark of the bargain between hag and hexblood, a debt owed, or a change to come. Hexblood Origins A bargain with a hag or other eerie forces transformed your character into a magical being.",
+  "age": null,
+  "size": "Medium or Small",
+  "type": "Fey",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 60,
+  "asi": {
+   "flexible": true
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [],
+   "choose": {
+    "n": 2,
+    "from": [
+     "Acrobatics",
+     "Animal Handling",
+     "Arcana",
+     "Athletics",
+     "Deception",
+     "History",
+     "Insight",
+     "Intimidation",
+     "Investigation",
+     "Medicine",
+     "Nature",
+     "Perception",
+     "Performance",
+     "Persuasion",
+     "Religion",
+     "Sleight of Hand",
+     "Stealth",
+     "Survival"
+    ]
+   }
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Ancestral Legacy",
+    "text": "If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it. If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice."
+   },
+   {
+    "name": "Darkvision",
+    "text": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray."
+   },
+   {
+    "name": "Eerie Token",
+    "text": "As a bonus action, you can harmlessly remove a lock of your hair, one of your nails, or one of your teeth. This token is imbued with magic until you finish a long rest. While the token is imbued this way, you can take these actions:"
+   },
+   {
+    "name": "Telepathic Message",
+    "text": "As an action, you can send a telepathic message to the creature holding or carrying the token, as long as you are within 10 miles of it. The message can contain up to twenty-five words."
+   },
+   {
+    "name": "Remote Viewing",
+    "text": "If you are within 10 miles of the token, you can enter a trance as an action. The trance lasts for 1 minute, but it ends early if you dismiss it (no action required) or are incapacitated. During this trance, you can see and hear from the token as if you were located where it is. While you are using your senses at the token's location, you are blinded and deafened in regard to your own surroundings. When the trance ends, the token is harmlessly destroyed. Once you create a token using this feature, you can't do so again until you finish a long rest, at which point your missing part regrows."
+   },
+   {
+    "name": "Hex Magic",
+    "text": "You can cast the Disguise Self and Hex spells with this trait. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose the ability when you gain this lineage)."
+   }
+  ]
+ },
+ {
+  "id": "reborn",
+  "name": "Reborn",
+  "description": "Death isn't always the end. The reborn exemplify this, being individuals who have died yet, somehow, still live. Some reborn exhibit the scars of fatal ends, their ashen flesh or bloodless veins making it clear that they've been touched by death. Other reborn are marvels of magic or science, being stitched together from disparate beings or bearing mysterious minds in manufactured bodies. Whatever their origins, reborn know a new life and seek experiences and answers all their own. Reborn suffer from some manner of discontinuity, an interruption of their lives or physical state that their minds are ill equipped to deal with. Their memories of events before this interruption are often vague or absent. Occasionally, the most unexpected experiences might cause sensations or visions of the past to come rushing back. Rather than sleeping, reborn regularly sit and dwell on the past, hoping for some revelation of what came before. Most of the time, these are dark, silent stretches. Occasionally, though, in a moment of peace, stress, or excitement, a reborn gains a glimpse of what came before. Reborn Origins Reborn might originate from circumstances similar to those of various undead or constructs.",
+  "age": null,
+  "size": "Medium or Small",
+  "type": "Humanoid",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "flexible": true
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [],
+   "choose": {
+    "n": 2,
+    "from": [
+     "Acrobatics",
+     "Animal Handling",
+     "Arcana",
+     "Athletics",
+     "Deception",
+     "History",
+     "Insight",
+     "Intimidation",
+     "Investigation",
+     "Medicine",
+     "Nature",
+     "Perception",
+     "Performance",
+     "Persuasion",
+     "Religion",
+     "Sleight of Hand",
+     "Stealth",
+     "Survival"
+    ]
+   }
+  },
+  "resistances": [
+   "poison"
+  ],
+  "traits": [
+   {
+    "name": "Ancestral Legacy",
+    "text": "If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it. If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice."
+   },
+   {
+    "name": "Deathless Nature",
+    "text": "You have escaped death, a fact represented by the following benefits: You have advantage on saving throws against disease and being poisoned, and you have resistance to poison damage. You have advantage on death saving throws. You don't need to eat, drink, or breathe. You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness."
+   }
+  ]
+ },
+ {
+  "id": "glitchling",
+  "name": "Glitchling",
+  "description": "Created by forces of planar law, glitchlings are winged, human-like creatures made from a merger of magic and machine. These explorers seek to learn all they can about the multiverse and its creatures. Some glitchlings then carry what they learn back to lawful planes, like Mechanus, to inform the orderly working of the multiverse. Others become enamored with travel and the peoples they encounter, and they seek to make a life of their own among the planes. Glitchlings begin their existences with rudimentary personalities. As they absorb information and experiences, their personalities grow, but many retain quirks associated with their lawful origins.",
+  "age": null,
+  "size": "Medium",
+  "type": "Construct",
+  "speed": {
+   "walk": 30
+  },
+  "darkvision": 0,
+  "asi": {
+   "flexible": true
+  },
+  "languages": {
+   "fixed": [
+    "Common"
+   ],
+   "choose": 1
+  },
+  "skills": {
+   "fixed": [],
+   "choose": null
+  },
+  "resistances": [],
+  "traits": [
+   {
+    "name": "Armored Plating",
+    "text": "Your metal skin is reinforced with armor plates. While you aren't wearing armor, your base Armor Class is 14 + your Dexterity modifier."
+   },
+   {
+    "name": "Balance Chaos",
+    "text": "When you make an attack roll or a saving throw and roll a 9 or lower on the d20, you can balance chaos and treat the roll as a 10. You can balance chaos in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+   },
+   {
+    "name": "Living Construct",
+    "text": "You were created to benefit from several spells that preserve life but that normally don't affect Constructs: Cure Wounds, Healing Word, Mass Cure Wounds, Mass Healing Word, and Spare the Dying."
+   },
+   {
+    "name": "Ordered Mind",
+    "text": "You have advantage on Wisdom (Insight) checks and on saving throws made to avoid or end the charmed condition on yourself."
+   },
+   {
+    "name": "Vestigial Wings",
+    "text": "You have vestigial wings that allow limited flight. When you move, you can engage your wings to gain a flying speed equal to your walking speed until the end of the current turn. If you are still aloft at the end of the turn with nothing else supporting you, you fall. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+   }
+  ],
+  "naturalAC": {
+   "base": 14,
+   "ability": null
+  }
+ },
+ {
+  "id": "revenant",
+  "name": "Revenant",
+  "description": "Having met a cruel and undeserved end, you have returned to the realm of the living, thirsting for revenge or seeking to complete a final, critical task. The revenant template can be applied on top of any race.",
+  "asi": {
+   "fixed": {
+    "CON": 1
+   }
+  },
+  "traits": [
+   {
+    "name": "Relentless Nature",
+    "text": "Your DM assigns you a goal related to your death. Until you fulfil it: if you start your turn below half your hit point maximum you regain 1 hit point; if you die you return to life 24 hours later (re-forming within 1 mile if your body was destroyed); and you know the distance and direction to any creature involved in your goal while on the same plane."
+   }
+  ],
+  "template": true
+ }
+]

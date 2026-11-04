@@ -1,0 +1,2034 @@
+[
+{
+"id": "phb",
+"name": "Player's Handbook (d100)",
+"note": "The classic Wild Magic Surge table.",
+"columns": [
+"Effect"
+],
+"rows": [
+{
+"n": 1,
+"cells": [
+"Roll on this table at the start of each of your turns for the next minute, ignoring this result on subsequent rolls."
+]
+},
+{
+"n": 2,
+"cells": [
+"Roll on this table at the start of each of your turns for the next minute, ignoring this result on subsequent rolls."
+]
+},
+{
+"n": 3,
+"cells": [
+"For the next minute, you can see any invisible creature if you have line of sight to it."
+]
+},
+{
+"n": 4,
+"cells": [
+"For the next minute, you can see any invisible creature if you have line of sight to it."
+]
+},
+{
+"n": 5,
+"cells": [
+"A modron chosen and controlled by the DM appears in an unoccupied space within 5 feet of you, then disappears I minute later."
+]
+},
+{
+"n": 6,
+"cells": [
+"A modron chosen and controlled by the DM appears in an unoccupied space within 5 feet of you, then disappears I minute later."
+]
+},
+{
+"n": 7,
+"cells": [
+"You cast Fireball as a 3rd-level spell centered on yourself."
+]
+},
+{
+"n": 8,
+"cells": [
+"You cast Fireball as a 3rd-level spell centered on yourself."
+]
+},
+{
+"n": 9,
+"cells": [
+"You cast Magic Missile as a 5th-level spell."
+]
+},
+{
+"n": 10,
+"cells": [
+"You cast Magic Missile as a 5th-level spell."
+]
+},
+{
+"n": 11,
+"cells": [
+"Roll a d10. Your height changes by a number of inches equal to the roll. If the roll is odd, you shrink. If the roll is even, you grow."
+]
+},
+{
+"n": 12,
+"cells": [
+"Roll a d10. Your height changes by a number of inches equal to the roll. If the roll is odd, you shrink. If the roll is even, you grow."
+]
+},
+{
+"n": 13,
+"cells": [
+"You cast Confusion centered on yourself."
+]
+},
+{
+"n": 14,
+"cells": [
+"You cast Confusion centered on yourself."
+]
+},
+{
+"n": 15,
+"cells": [
+"For the next minute, you regain 5 hit points at the start of each of your turns."
+]
+},
+{
+"n": 16,
+"cells": [
+"For the next minute, you regain 5 hit points at the start of each of your turns."
+]
+},
+{
+"n": 17,
+"cells": [
+"You grow a long beard made of feathers that remains until you sneeze, at which point the feathers explode out from your face."
+]
+},
+{
+"n": 18,
+"cells": [
+"You grow a long beard made of feathers that remains until you sneeze, at which point the feathers explode out from your face."
+]
+},
+{
+"n": 19,
+"cells": [
+"You cast Grease centered on yourself."
+]
+},
+{
+"n": 20,
+"cells": [
+"You cast Grease centered on yourself."
+]
+},
+{
+"n": 21,
+"cells": [
+"Creatures have disadvantage on saving throws against the next spell you cast in the next minute that involves a saving throw."
+]
+},
+{
+"n": 22,
+"cells": [
+"Creatures have disadvantage on saving throws against the next spell you cast in the next minute that involves a saving throw."
+]
+},
+{
+"n": 23,
+"cells": [
+"Your skin turns a vibrant shade of blue. A Remove Curse spell can end this effect."
+]
+},
+{
+"n": 24,
+"cells": [
+"Your skin turns a vibrant shade of blue. A Remove Curse spell can end this effect."
+]
+},
+{
+"n": 25,
+"cells": [
+"An eye appears on your forehead for the next minute. During that time, you have advantage on Wisdom (Perception) checks that rely on sight."
+]
+},
+{
+"n": 26,
+"cells": [
+"An eye appears on your forehead for the next minute. During that time, you have advantage on Wisdom (Perception) checks that rely on sight."
+]
+},
+{
+"n": 27,
+"cells": [
+"For the next minute, all your spells with a casting time of 1 action have a casting time of 1 bonus action."
+]
+},
+{
+"n": 28,
+"cells": [
+"For the next minute, all your spells with a casting time of 1 action have a casting time of 1 bonus action."
+]
+},
+{
+"n": 29,
+"cells": [
+"You teleport up to 60 feet to an unoccupied space of your choice that you can see."
+]
+},
+{
+"n": 30,
+"cells": [
+"You teleport up to 60 feet to an unoccupied space of your choice that you can see."
+]
+},
+{
+"n": 31,
+"cells": [
+"You are transported to the Astral Plane until the end of your next turn, after which time you return to the space you previously occupied or the nearest unoccupied space if that space is occupied."
+]
+},
+{
+"n": 32,
+"cells": [
+"You are transported to the Astral Plane until the end of your next turn, after which time you return to the space you previously occupied or the nearest unoccupied space if that space is occupied."
+]
+},
+{
+"n": 33,
+"cells": [
+"Maximize the damage of the next damaging spell you cast within the next minute."
+]
+},
+{
+"n": 34,
+"cells": [
+"Maximize the damage of the next damaging spell you cast within the next minute."
+]
+},
+{
+"n": 35,
+"cells": [
+"Roll a d10. Your age changes by a number of years equal to the roll. If the roll is odd, you get younger (minimum 1 year old). If the roll is even, you get older."
+]
+},
+{
+"n": 36,
+"cells": [
+"Roll a d10. Your age changes by a number of years equal to the roll. If the roll is odd, you get younger (minimum 1 year old). If the roll is even, you get older."
+]
+},
+{
+"n": 37,
+"cells": [
+"1d6 flumphs controlled by the DM appear in unoccupied spaces within 60 feet of you and are frightened of you. They vanish after 1 minute."
+]
+},
+{
+"n": 38,
+"cells": [
+"1d6 flumphs controlled by the DM appear in unoccupied spaces within 60 feet of you and are frightened of you. They vanish after 1 minute."
+]
+},
+{
+"n": 39,
+"cells": [
+"You regain 2d10 hit points."
+]
+},
+{
+"n": 40,
+"cells": [
+"You regain 2d10 hit points."
+]
+},
+{
+"n": 41,
+"cells": [
+"You turn into a potted plant until the start of your next turn. While a plant, you are incapacitated and have vulnerability to all damage. If you drop to 0 hit points, your pot breaks, and your form reverts."
+]
+},
+{
+"n": 42,
+"cells": [
+"You turn into a potted plant until the start of your next turn. While a plant, you are incapacitated and have vulnerability to all damage. If you drop to 0 hit points, your pot breaks, and your form reverts."
+]
+},
+{
+"n": 43,
+"cells": [
+"For the next minute, you can teleport up to 20 feet as a bonus action on each of your turns."
+]
+},
+{
+"n": 44,
+"cells": [
+"For the next minute, you can teleport up to 20 feet as a bonus action on each of your turns."
+]
+},
+{
+"n": 45,
+"cells": [
+"You cast Levitate on yourself."
+]
+},
+{
+"n": 46,
+"cells": [
+"You cast Levitate on yourself."
+]
+},
+{
+"n": 47,
+"cells": [
+"A unicorn controlled by the DM appears in a space within 5 feet of you, then disappears 1 minute later."
+]
+},
+{
+"n": 48,
+"cells": [
+"A unicorn controlled by the DM appears in a space within 5 feet of you, then disappears 1 minute later."
+]
+},
+{
+"n": 49,
+"cells": [
+"You can't speak for the next minute. Whenever you try, pink bubbles float out of your mouth."
+]
+},
+{
+"n": 50,
+"cells": [
+"You can't speak for the next minute. Whenever you try, pink bubbles float out of your mouth."
+]
+},
+{
+"n": 51,
+"cells": [
+"A spectral shield hovers near you for the next minute, granting you a +2 bonus to AC and immunity to Magic Missile."
+]
+},
+{
+"n": 52,
+"cells": [
+"A spectral shield hovers near you for the next minute, granting you a +2 bonus to AC and immunity to Magic Missile."
+]
+},
+{
+"n": 53,
+"cells": [
+"You are immune to being intoxicated by alcohol for the next 5d6 days."
+]
+},
+{
+"n": 54,
+"cells": [
+"You are immune to being intoxicated by alcohol for the next 5d6 days."
+]
+},
+{
+"n": 55,
+"cells": [
+"Your hair falls out but grows back within 24 hours."
+]
+},
+{
+"n": 56,
+"cells": [
+"Your hair falls out but grows back within 24 hours."
+]
+},
+{
+"n": 57,
+"cells": [
+"For the next minute, any flammable object you touch that isn't being worn or carried by another creature bursts into flame."
+]
+},
+{
+"n": 58,
+"cells": [
+"For the next minute, any flammable object you touch that isn't being worn or carried by another creature bursts into flame."
+]
+},
+{
+"n": 59,
+"cells": [
+"You regain your lowest-level expended spell slot."
+]
+},
+{
+"n": 60,
+"cells": [
+"You regain your lowest-level expended spell slot."
+]
+},
+{
+"n": 61,
+"cells": [
+"For the next minute, you must shout when you speak."
+]
+},
+{
+"n": 62,
+"cells": [
+"For the next minute, you must shout when you speak."
+]
+},
+{
+"n": 63,
+"cells": [
+"You cast Fog Cloud centered on yourself."
+]
+},
+{
+"n": 64,
+"cells": [
+"You cast Fog Cloud centered on yourself."
+]
+},
+{
+"n": 65,
+"cells": [
+"Up to three creatures you choose within 30 feet of you take 4d10 lightning damage."
+]
+},
+{
+"n": 66,
+"cells": [
+"Up to three creatures you choose within 30 feet of you take 4d10 lightning damage."
+]
+},
+{
+"n": 67,
+"cells": [
+"You are frightened by the nearest creature until the end of your next turn."
+]
+},
+{
+"n": 68,
+"cells": [
+"You are frightened by the nearest creature until the end of your next turn."
+]
+},
+{
+"n": 69,
+"cells": [
+"Each creature within 30 feet of you becomes invisible for the next minute. The invisibility ends on a creature when it attacks or casts a spell."
+]
+},
+{
+"n": 70,
+"cells": [
+"Each creature within 30 feet of you becomes invisible for the next minute. The invisibility ends on a creature when it attacks or casts a spell."
+]
+},
+{
+"n": 71,
+"cells": [
+"You gain resistance to all damage for the next minute."
+]
+},
+{
+"n": 72,
+"cells": [
+"You gain resistance to all damage for the next minute."
+]
+},
+{
+"n": 73,
+"cells": [
+"A random creature within 60 feet of you becomes poisoned for 1d4 hours."
+]
+},
+{
+"n": 74,
+"cells": [
+"A random creature within 60 feet of you becomes poisoned for 1d4 hours."
+]
+},
+{
+"n": 75,
+"cells": [
+"You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is blinded until the end of its next turn."
+]
+},
+{
+"n": 76,
+"cells": [
+"You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is blinded until the end of its next turn."
+]
+},
+{
+"n": 77,
+"cells": [
+"You cast Polymorph on yourself. If you fail the saving throw, you turn into a sheep for the spell's duration."
+]
+},
+{
+"n": 78,
+"cells": [
+"You cast Polymorph on yourself. If you fail the saving throw, you turn into a sheep for the spell's duration."
+]
+},
+{
+"n": 79,
+"cells": [
+"Illusory butterflies and flower petals flutter in the air within 10 feet of you for the next minute."
+]
+},
+{
+"n": 80,
+"cells": [
+"Illusory butterflies and flower petals flutter in the air within 10 feet of you for the next minute."
+]
+},
+{
+"n": 81,
+"cells": [
+"You can take one additional action immediately."
+]
+},
+{
+"n": 82,
+"cells": [
+"You can take one additional action immediately."
+]
+},
+{
+"n": 83,
+"cells": [
+"Each creature within 30 feet of you takes 1d10 necrotic damage. You regain hit points equal to the sum of the necrotic damage dealt."
+]
+},
+{
+"n": 84,
+"cells": [
+"Each creature within 30 feet of you takes 1d10 necrotic damage. You regain hit points equal to the sum of the necrotic damage dealt."
+]
+},
+{
+"n": 85,
+"cells": [
+"You cast Mirror Image."
+]
+},
+{
+"n": 86,
+"cells": [
+"You cast Mirror Image."
+]
+},
+{
+"n": 87,
+"cells": [
+"You cast Fly on a random creature within 60 feet of you."
+]
+},
+{
+"n": 88,
+"cells": [
+"You cast Fly on a random creature within 60 feet of you."
+]
+},
+{
+"n": 89,
+"cells": [
+"You become invisible for the next minute. During that time, other creatures can't hear you. The invisibility ends if you attack or cast a spell."
+]
+},
+{
+"n": 90,
+"cells": [
+"You become invisible for the next minute. During that time, other creatures can't hear you. The invisibility ends if you attack or cast a spell."
+]
+},
+{
+"n": 91,
+"cells": [
+"If you die within the next minute, you immediately come back to life as if by the Reincarnate spell."
+]
+},
+{
+"n": 92,
+"cells": [
+"If you die within the next minute, you immediately come back to life as if by the Reincarnate spell."
+]
+},
+{
+"n": 93,
+"cells": [
+"Your size increases by one size category for the next minute."
+]
+},
+{
+"n": 94,
+"cells": [
+"Your size increases by one size category for the next minute."
+]
+},
+{
+"n": 95,
+"cells": [
+"You and all creatures within 30 feet of you gain vulnerability to piercing damage for the next minute."
+]
+},
+{
+"n": 96,
+"cells": [
+"You and all creatures within 30 feet of you gain vulnerability to piercing damage for the next minute."
+]
+},
+{
+"n": 97,
+"cells": [
+"You are surrounded by faint, ethereal music for the next minute."
+]
+},
+{
+"n": 98,
+"cells": [
+"You are surrounded by faint, ethereal music for the next minute."
+]
+},
+{
+"n": 99,
+"cells": [
+"You regain all expended sorcery points."
+]
+},
+{
+"n": 100,
+"cells": [
+"You regain all expended sorcery points."
+]
+}
+]
+},
+{
+"id": "ua",
+"name": "Unearthed Arcana (d100)",
+"note": "Alternative surges from Unearthed Arcana.",
+"columns": [
+"Effect"
+],
+"rows": [
+{
+"n": 1,
+"cells": [
+"Roll two more times on this table. All effects happen simultaneously."
+]
+},
+{
+"n": 2,
+"cells": [
+"The caster and target switch positions after the spell ends."
+]
+},
+{
+"n": 3,
+"cells": [
+"After the spell ends the caster is polymorphed into a Riding Horse for the next hour."
+]
+},
+{
+"n": 4,
+"cells": [
+"The caster becomes entangled in an explosion of plant growth."
+]
+},
+{
+"n": 5,
+"cells": [
+"The caster also casts thunderwave as a third-level spell centered on themselves."
+]
+},
+{
+"n": 6,
+"cells": [
+"The target is transported to the Ethereal Plane for the next minute."
+]
+},
+{
+"n": 7,
+"cells": [
+"A writhing swarm of rats lift and carry the caster 30’ in a random direction."
+]
+},
+{
+"n": 8,
+"cells": [
+"The caster’s clothes sprout teeth and attempt to eat the caster. Treat the clothes as a Lesser Cloaker (see page 6)."
+]
+},
+{
+"n": 9,
+"cells": [
+"A mature oak sprouts in an unoccupied space within 60’ of the caster."
+]
+},
+{
+"n": 10,
+"cells": [
+"The caster can only speak in beast speech for 24 hours."
+]
+},
+{
+"n": 11,
+"cells": [
+"The caster gains 100 lbs and has their move speed halved for the next minute."
+]
+},
+{
+"n": 12,
+"cells": [
+"Next turn the caster takes no action and instead vomits up 1d100 silver pieces."
+]
+},
+{
+"n": 13,
+"cells": [
+"The caster’s hands become covered in sticky goop."
+]
+},
+{
+"n": 14,
+"cells": [
+"Cabbages sprout abundantly within a 30’ radius of the caster."
+]
+},
+{
+"n": 15,
+"cells": [
+"The caster can mimic the target’s voice perfectly for 24 hrs."
+]
+},
+{
+"n": 16,
+"cells": [
+"The caster grows antlers then sheds them 24 hours later."
+]
+},
+{
+"n": 17,
+"cells": [
+"The caster and target are flung 10’ in opposite directions."
+]
+},
+{
+"n": 18,
+"cells": [
+"Gravity reverses in a 20’ radius of the caster till the start of their next turn."
+]
+},
+{
+"n": 19,
+"cells": [
+"The spell ricochets off the target toward a random creature within 30’."
+]
+},
+{
+"n": 20,
+"cells": [
+"All coins the caster is carrying are instantly transformed. Copper pieces turn into silver pieces silver pieces turn into gold pieces and gold pieces turn into copper pieces."
+]
+},
+{
+"n": 21,
+"cells": [
+"One of the caster’s eyes turns into a 500 GP sapphire."
+]
+},
+{
+"n": 22,
+"cells": [
+"Smoke fumes from the caster’s ears for the next minute."
+]
+},
+{
+"n": 23,
+"cells": [
+"All unlocked doors and windows within 60’ of the caster fly open."
+]
+},
+{
+"n": 24,
+"cells": [
+"A small explosion blinds and deafens the caster and everyone within a 20’ radius of them for 1d4 rounds."
+]
+},
+{
+"n": 25,
+"cells": [
+"A confused brown bear appears in an unoccupied space within 60’ of the caster."
+]
+},
+{
+"n": 26,
+"cells": [
+"The caster can only breathe underwater for the next minute."
+]
+},
+{
+"n": 27,
+"cells": [
+"If the spell’s target dies within the next minute its ghost haunts the caster."
+]
+},
+{
+"n": 28,
+"cells": [
+"Objects within 30’ of the caster that weigh less than 100 lbs. are pulled toward the caster."
+]
+},
+{
+"n": 29,
+"cells": [
+"The caster smells like lavender for 1d6 days."
+]
+},
+{
+"n": 30,
+"cells": [
+"The caster’s clothes become uncomfortably tight."
+]
+},
+{
+"n": 31,
+"cells": [
+"If the spell would kill the target the target’s extremities fly apart at the joints."
+]
+},
+{
+"n": 32,
+"cells": [
+"The caster becomes trapped inside a giant glass ball."
+]
+},
+{
+"n": 33,
+"cells": [
+"The caster’s hands triple in size for the next minute dealing bludgeoning damage equal to 1d8 + their Strength modifier on a successful unarmed strike."
+]
+},
+{
+"n": 34,
+"cells": [
+"A loud disembodied voice ridicules the caster on initiative count 20 for the next minute."
+]
+},
+{
+"n": 35,
+"cells": [
+"The caster’s arms become flailing tentacles for the next minute."
+]
+},
+{
+"n": 36,
+"cells": [
+"A large floating eye follows the caster for the next hour."
+]
+},
+{
+"n": 37,
+"cells": [
+"The caster’s Charisma and Strength scores are swapped for the next day."
+]
+},
+{
+"n": 38,
+"cells": [
+"All fires within 60’ of the caster are extinguished."
+]
+},
+{
+"n": 39,
+"cells": [
+"A wall of fire encircles the caster (see page 5)."
+]
+},
+{
+"n": 40,
+"cells": [
+"The caster suffers the same spell effect as the target."
+]
+},
+{
+"n": 41,
+"cells": [
+"The caster becomes blinded and invisible for the next minute."
+]
+},
+{
+"n": 42,
+"cells": [
+"The caster’s eyes glow like lanterns for the next day."
+]
+},
+{
+"n": 43,
+"cells": [
+"Any applicable saving throw the spell’s target would make automatically fails."
+]
+},
+{
+"n": 44,
+"cells": [
+"The spell slot spent on this spell is retained."
+]
+},
+{
+"n": 45,
+"cells": [
+"The spell appears to fail but occurs 1 round later."
+]
+},
+{
+"n": 46,
+"cells": [
+"The caster and all creatures within a 20’ radius heal 3d8 hit points."
+]
+},
+{
+"n": 47,
+"cells": [
+"The caster suffers hiccups for the next hour. All attack rolls saving throws and ability checks are made at disadvantage and the noise is loud enough to possibly attract attention."
+]
+},
+{
+"n": 48,
+"cells": [
+"The caster and target are both whisked to the Ethereal Plane for the next minute."
+]
+},
+{
+"n": 49,
+"cells": [
+"The caster’s movements leave color trails for the next minute."
+]
+},
+{
+"n": 50,
+"cells": [
+"The caster also casts haste targeting themselves."
+]
+},
+{
+"n": 51,
+"cells": [
+"Smoke fills a 10’ radius around the caster lasting 3 rounds."
+]
+},
+{
+"n": 52,
+"cells": [
+"A spectral audience of thousands appears to observe the scene for the next minute."
+]
+},
+{
+"n": 53,
+"cells": [
+"A clone of the caster appears desperately claiming to be the original. It vanishes one minute later."
+]
+},
+{
+"n": 54,
+"cells": [
+"The caster’s clothes become tattered and frayed."
+]
+},
+{
+"n": 55,
+"cells": [
+"The caster also casts mirror image on the target."
+]
+},
+{
+"n": 56,
+"cells": [
+"The caster must becomes afraid of all creatures of the target’s type for the next hour."
+]
+},
+{
+"n": 57,
+"cells": [
+"The target starts sobbing uncontrollably and is incapacitated for the next minute or until hit with an attack."
+]
+},
+{
+"n": 58,
+"cells": [
+"The ground below the caster turns to mud 5’ deep."
+]
+},
+{
+"n": 59,
+"cells": [
+"The caster grows fangs capable of dealing 1d4 piercing damage."
+]
+},
+{
+"n": 60,
+"cells": [
+"The target becomes covered in weeping sores dealing 1d6 necrotic damage."
+]
+},
+{
+"n": 61,
+"cells": [
+"The caster suffers an awful nosebleed till the start of their next turn."
+]
+},
+{
+"n": 62,
+"cells": [
+"The caster casts barkskin on themselves. It flakes off 1d4 rounds later."
+]
+},
+{
+"n": 63,
+"cells": [
+"A mighty wind blasts forth from the caster. Everyone within 20’ must make a DC 15 Strength save or else fall prone."
+]
+},
+{
+"n": 64,
+"cells": [
+"The caster’s eyes are forced closed but they gain truesight with a range of 60’ for the next 1d6 days."
+]
+},
+{
+"n": 65,
+"cells": [
+"The caster’s hands are burned by magical energy dealing 1d6 radiant damage. Anything requiring manual dexterity is done at disadvantage for the next day."
+]
+},
+{
+"n": 66,
+"cells": [
+"A terrible stench suffuses the area within 50’ of the caster."
+]
+},
+{
+"n": 67,
+"cells": [
+"A sustained harmonious chord plays audible within 500’ of the caster."
+]
+},
+{
+"n": 68,
+"cells": [
+"The caster gains 8 temporary hit points."
+]
+},
+{
+"n": 69,
+"cells": [
+"The spell deals the maximum possible damage if applicable."
+]
+},
+{
+"n": 70,
+"cells": [
+"A column erupts beneath caster’s feet growing 30’ high or 5’ shorter than the ceiling (whichever is shorter)."
+]
+},
+{
+"n": 71,
+"cells": [
+"The spell’s duration is doubled if applicable."
+]
+},
+{
+"n": 72,
+"cells": [
+"The spell fires in random direction if its range is not touch."
+]
+},
+{
+"n": 73,
+"cells": [
+"The caster’s teeth fall out."
+]
+},
+{
+"n": 74,
+"cells": [
+"The target becomes petrified for 1d4 rounds."
+]
+},
+{
+"n": 75,
+"cells": [
+"Any ferrous material the target possesses immediately corrodes."
+]
+},
+{
+"n": 76,
+"cells": [
+"The air within a 5’ radius of the caster turns into a random element. Roll 1d6: 1-2. Fire; 3-4. Earth; 5-6. Water."
+]
+},
+{
+"n": 77,
+"cells": [
+"The caster’s arms fade into the Ethereal for the next 1d4 rounds."
+]
+},
+{
+"n": 78,
+"cells": [
+"Five gallons of sand appear between the caster’s hands."
+]
+},
+{
+"n": 79,
+"cells": [
+"The caster’s tongue triples in length for the next 24 hours."
+]
+},
+{
+"n": 80,
+"cells": [
+"The caster’s cranium becomes transparent until remove curse is cast on them."
+]
+},
+{
+"n": 81,
+"cells": [
+"The caster’s hands become encased in bricks of hard clay."
+]
+},
+{
+"n": 82,
+"cells": [
+"The target’s jump distance triples for the next minute."
+]
+},
+{
+"n": 83,
+"cells": [
+"Fragile objects within 30’ of the caster shatter."
+]
+},
+{
+"n": 84,
+"cells": [
+"The caster becomes voraciously hungry."
+]
+},
+{
+"n": 85,
+"cells": [
+"The target’s bones are turned into gold. Their speed becomes 5’ until remove curse is applied."
+]
+},
+{
+"n": 86,
+"cells": [
+"1d4 stirges appear crash to the ground and start to act on initiative count 20."
+]
+},
+{
+"n": 87,
+"cells": [
+"Ten thin red cords emerge from the caster’s fingers and attach to the target."
+]
+},
+{
+"n": 88,
+"cells": [
+"The caster can only sing not speak for the next six hours."
+]
+},
+{
+"n": 89,
+"cells": [
+"The area within 30’ of the caster is affected by darkness except for the area within a 10’ radius of the caster."
+]
+},
+{
+"n": 90,
+"cells": [
+"The caster reflexively vomits at their next sip of alcohol whenever that occurs."
+]
+},
+{
+"n": 91,
+"cells": [
+"The caster’s shoes irreparably fuse to the ground."
+]
+},
+{
+"n": 92,
+"cells": [
+"The caster’s fingers become frostbitten."
+]
+},
+{
+"n": 93,
+"cells": [
+"The spell’s target becomes overwhelmed by a desire to eat the caster."
+]
+},
+{
+"n": 94,
+"cells": [
+"Harmless bright sparks erupt from the caster’s hands."
+]
+},
+{
+"n": 95,
+"cells": [
+"The caster enters a rage as per a barbarian."
+]
+},
+{
+"n": 96,
+"cells": [
+"The caster gains retractable claws capable of dealing slashing damage equal to 1d4 + their Strength modifier on an unarmed strike."
+]
+},
+{
+"n": 97,
+"cells": [
+"The target takes an additional 6d6 force damage."
+]
+},
+{
+"n": 98,
+"cells": [
+"The target ages 1d100 years possibly dying of old age."
+]
+},
+{
+"n": 99,
+"cells": [
+"The spell’s effects are reversed if the reverse is possible."
+]
+},
+{
+"n": 100,
+"cells": [
+"The next phrase spoken by the caster becomes true."
+]
+}
+]
+},
+{
+"id": "threeway",
+"name": "Three-way severity (d20 + d100)",
+"note": "Roll a d20 for severity (1-3 Extreme, 4-9 Moderate, 10-20 Nuisance), then a d100.",
+"columns": [
+"1-3/Extreme",
+"4-9/Moderate",
+"10-20/Nuisance"
+],
+"rows": [
+{
+"n": 1,
+"cells": [
+"A fireball explodes with you at the center. You and each creature within 20 feet of you who must make a Dexterity saving throw using your spell save DC, taking 5d6 fire damage on a failed save, or half as much damage on a successful one.",
+"For the next day, your skin tone changes color every 30 minutes, cycling through the colors of the rainbow.",
+"A puddle of grease appears where you are standing, with a 10-foot radius. You and anyone within 10 feet of you must make a Dexterity check at your spell save DC or fall prone."
+]
+},
+{
+"n": 2,
+"cells": [
+"You recover all your expended spell slots.",
+"You are confused for 1 minute, as though you were affected by the confusion spell.",
+"You levitate 6 inches off the ground for 1 minute."
+]
+},
+{
+"n": 3,
+"cells": [
+"You lose the ability to hear for 1 day.",
+"Your Strength is increased by 2 for 1 day.",
+"You gain tremorsense with a range of 30 feet for 1 minute."
+]
+},
+{
+"n": 4,
+"cells": [
+"Each creature within 30 feet of you takes 1d10 necrotic damage. You regain hit points equal to the sum of damage dealt.",
+"A third eye appears in your forehead, giving you advantage on sight-based Wisdom (Perception) checks for 1 minute.",
+"You make no sounds for 1 minute and you gain advantage on any Dexterity (Stealth) checks."
+]
+},
+{
+"n": 5,
+"cells": [
+"You teleport to an alternate plane, then return to the location where you started after 1 minute.",
+"The next spell you cast within the next minute that does damage, the damage is maximized.",
+"You grow a beard made of feathers, which remains until you sneeze."
+]
+},
+{
+"n": 6,
+"cells": [
+"You transform into a large empty barrel for 1 minute, during which time you considered petrified.",
+"For the next minute, you can teleport up to 20 feet as part of your movement on each of your turns.",
+"You can't speak for 1 minute. When you try, pink bubbles float out of your mouth."
+]
+},
+{
+"n": 7,
+"cells": [
+"You are at the center of a darkness spell for 1 minute.",
+"You become intoxicated for 2d6 hours.",
+"You are immune to intoxication for the next 5d6 days."
+]
+},
+{
+"n": 8,
+"cells": [
+"You are frightened by the nearest creature until the end of your next turn.",
+"Your Intelligence is decreased by 2 for 1 day.",
+"You recover your lowest-level expended spell slot."
+]
+},
+{
+"n": 9,
+"cells": [
+"You are resistant to all damage types for 1 minute.",
+"Your Wisdom is increased by 2 for 1 day.",
+"For the next minute, you must shout when you speak."
+]
+},
+{
+"n": 10,
+"cells": [
+"A random creature within 60 feet of you is poisoned for 1d4 hours.",
+"For 1 minute, any flammable item you touch, that you aren't already wearing or carrying, bursts into flame.",
+"Illusory butterflies and flower petals flutter in the air around you in a 10-foot radius for 1 minute."
+]
+},
+{
+"n": 11,
+"cells": [
+"Make a Wisdom saving throw against your own spell save DC. If you fail, you are polymorphed into giant dragonfly for 1 minute.",
+"Plants grow around you and you are restrained for 1 minute.",
+"You cast mirror image on yourself, which lasts for 1 minute and does not require concentration."
+]
+},
+{
+"n": 12,
+"cells": [
+"Up to three creatures you choose within 30 feet of you take 4d10 lightning damage.",
+"A random creature within 30 feet of you gains a flying speed equal to its walking speed for 1 minute.",
+"You are surrounded by faint, ethereal music for 1 minute."
+]
+},
+{
+"n": 13,
+"cells": [
+"You immediately gain 20 temporary hit points.",
+"You may immediately take 1 additional action.",
+"You regain all expended sorcery points."
+]
+},
+{
+"n": 14,
+"cells": [
+"You teleport up to 60 feet to an unoccupied space that you can see.",
+"If you fall within the next day, you automatically have the benefit of the feather fall spell.",
+"Your hair grows to double its current length over the next minute."
+]
+},
+{
+"n": 15,
+"cells": [
+"You are the center of a silence spell for 1 minute.",
+"You recover 1 expended spell slot of your choice.",
+"Your hair falls out but grows back within 1 day."
+]
+},
+{
+"n": 16,
+"cells": [
+"You are vulnerable to fiends for 1 hour. Such creatures gain advantage on attack rolls made against you.",
+"For the next spell you cast within 1 minute that does damage, the damage is minimized.",
+"You gain the ability to speak one additional language of your choice for 1 hour."
+]
+},
+{
+"n": 17,
+"cells": [
+"For the next day, any time you make an ability check, roll 1d6 and subtract the result.",
+"You have are surrounded by a spectral shield for 1 minute, giving you a +2 bonus to your AC and immunity to magic missile.",
+"You are invisible for 1 minute."
+]
+},
+{
+"n": 18,
+"cells": [
+"For any spell that requires a saving throw you cast within the next minute, the target gains advantage.",
+"You and all creatures within 30 feet of you gain vulnerability to piercing damage for 1 minute.",
+"Your eyes permanently change color. If they are a blue or grey shade, they turn dark brown, or vice versa. A spell such as remove curse can end this effect."
+]
+},
+{
+"n": 19,
+"cells": [
+"The next single target spell you cast within the next minute must target one additional target.",
+"For 1 minute, you gain resistance to nonmagical bludgeoning, piercing, and slashing damage.",
+"Small birds flutter and chirp in your vicinity for 1 minute, during which time you automatically fail any Stealth check."
+]
+},
+{
+"n": 20,
+"cells": [
+"A demon whose CR is equal to your level appears near you. Make a Charisma saving throw against your spell save DC. If you make it, the demon is subservient, otherwise, it is hostile. The demon, if not banished or defeated, vanishes after 1 day.",
+"You are protected from Elementals for 1 hour. Such creatures cannot attack you or harm you unless they succeed on a Charisma saving throw against your spell save DC.",
+"You feel the incredible urge to relieve yourself. Until you do, your Strength and Intelligence are reduced by 1. If you don't relieve yourself in the next 2 minutes, the above effects are removed, but your Charisma score is reduced by 4 for 1 hour or until you change your trousers."
+]
+},
+{
+"n": 21,
+"cells": [
+"For the next minute, every creature within 60 feet of you that hears you speak only hears insults as if you are casting vicious mockery at first level.",
+"For the next minute, one creature of your choice gets a -2 penalty to its AC, attack rolls, and damage rolls.",
+"Gnats buzz around your head for 1 minute, distracting you. You must make a Constitution saving throw against your own spell save DC to cast any spell."
+]
+},
+{
+"n": 22,
+"cells": [
+"For the next day, you have advantage on the next 2d6 rolls you make where you don't already have advantage.",
+"You and all creatures within 30 feet of you gain vulnerability to bludgeoning damage for 1 minute.",
+"You are surrounded by a faint, offensive odor for 1 minute. You gain disadvantage on all Charisma checks."
+]
+},
+{
+"n": 23,
+"cells": [
+"You are protected from Aberrations for 1 day. Such creatures cannot attack you or harm you unless they save a Charisma saving throw against your spell save DC.",
+"You emanate light in a 30-foot radius for 1 minute. Any creature within 5 feet of you that can see is blinded until the end of its next.",
+"For the next minute, all spells with a casting time of 1 action or 1 bonus action require 2 consecutive actions to cast."
+]
+},
+{
+"n": 24,
+"cells": [
+"For 1 minute, a duplicate of yourself appears in the nearest open space which can take actions independently, and goes on the same Initiative as you. However, any damage it takes as well as any spell slots or sorcery point it uses applies to you as well.",
+"For the next hour, you gain advantage on Charisma checks when dealing with any creature wearing black, but disadvantage if they are wearing white. If they are wearing both, this doesn't apply.",
+"You have the irresistible urge to scratch an itch in the middle your back, just out of reach, for 1 minute. If you don't scratch it using a back scratcher or some similar device , you must succeed a Constitution saving throw against your spell save DC to cast a spell."
+]
+},
+{
+"n": 25,
+"cells": [
+"A loud boom emanates from you. All creatures within 15 feet take 2d8 thunder damage and must make a Constitution saving throw against your spell save DC or be deafened for 1 minute.",
+"You are protected from Plants for 1 hour. Such creatures cannot attack you or harm you unless they succeed on a Charisma saving throw against your spell save DC.",
+"You have a momentary vision of your own death. If you fail a Wisdom saving roll at your spell DC, you are frightened for 1 minute."
+]
+},
+{
+"n": 26,
+"cells": [
+"All creatures within 60 feet of you regain 2d8 hit points.",
+"Your Intelligence is increased by 2 for 1 day.",
+"Your Charisma is increased by 2 for 1 minute."
+]
+},
+{
+"n": 27,
+"cells": [
+"You transform into a marble statue of yourself for 1 minute, during which time you are considered petrified.",
+"Within the next hour, you have advantage on the next roll you make where you don't already have advantage.",
+"Over the next minute, all plants within 20 feet of you grow as if affected by the plant growth spell when cast as an action."
+]
+},
+{
+"n": 28,
+"cells": [
+"You are immune to disease for 1 week.",
+"You gain a +2 bonus to your AC for 1 minute.",
+"Your eyes glow red for 1 minute."
+]
+},
+{
+"n": 29,
+"cells": [
+"You immediately drop to 0 hit points.",
+"For the next minute, you are in the Border Ethereal near the location you were last in.",
+"Your Constitution is increased by 2 for 1 minute."
+]
+},
+{
+"n": 30,
+"cells": [
+"Make a Wisdom saving throw against your own spell save DC. If you fail, you are transformed into a raven for 1 minute, as if by a polymorph spell.",
+"For the next minute, you gain resistance to thunder and force damage.",
+"You add your proficiency bonus to all Charisma checks for the next hour, if you don't already add it."
+]
+},
+{
+"n": 31,
+"cells": [
+"You are protected from Beasts for 1 day. Such creatures cannot attack you or harm you unless they save a Charisma saving throw against your spell save DC.",
+"An imp appears within 30 feet of you. Make a Charisma saving throw against your spell save DC. If you succeed it, the imp is subservient, otherwise, it is hostile. The imp, if not banished or defeated, vanishes after 1 day.",
+"Your spell components seem to have been rearranged. During the next hour, you must make an Intelligence check against your spell save DC to cast any spell that requires a material component."
+]
+},
+{
+"n": 32,
+"cells": [
+"You transform into a stuffed toy resembling yourself for 1 minute, during which time you are considered petrified.",
+"For the next minute, you gain resistance to fire and cold damage.",
+"For the next minute, you have advantage on the next roll you make where you don't already have advantage."
+]
+},
+{
+"n": 33,
+"cells": [
+"You stand at the center a circular wall of fire with a radius of 15 feet. Any creature in any of the spaces covered by this fire must make a Dexterity saving throw against your spell DC or take 5d8 fire damage. The wall of fire remains for 1 minute.",
+"For the next hour, you gain advantage on Charisma checks when dealing with any creature wearing red, but disadvantage if they are wearing green. If they are wearing both, this doesn't apply.",
+"Every creature within 15 feet of you takes 1 necrotic damage. If you are wounded, you regain hit points up to the amount of damage dealt. If you are not wounded, you gain this amount of temporary hit points."
+]
+},
+{
+"n": 34,
+"cells": [
+"Choose 1 permanent or triggered effect that has happened to you or somebody else that youve received from this chart and remove it, even if it was beneficial.",
+"You gain the service of an arcane eye for 1 minute that does not require concentration.",
+"A magic mouth appears on a nearby wall or flat surface. When you speak, your voice comes from the magic mouth. This lasts for 1 minute."
+]
+},
+{
+"n": 35,
+"cells": [
+"You are vulnerable to Beasts for 1 hour. Such creatures gain advantage when attacking you.",
+"You lose the ability to smell for 1 day.",
+"You can hear exceptionally well for 1 minute, gaining advantage for all Perception checks related to sound."
+]
+},
+{
+"n": 36,
+"cells": [
+"You permanently lose the ability to smell. This sense can be restored with a spell that removes curses such as remove curse.",
+"You gain a -2 penalty to your AC for 1 minute.",
+"You lose the ability to smell for 1 hour."
+]
+},
+{
+"n": 37,
+"cells": [
+"You are vulnerable to Celestials for 1 hour. Such creatures gain advantage when attacking you.",
+"You and all creatures within 30 feet of you gain vulnerability to necrotic damage for 1 minute.",
+"For the next day, each time you say a word with the \"s\" sound, it sounds like a hissing snake."
+]
+},
+{
+"n": 38,
+"cells": [
+"Make a Wisdom saving throw against your spell save DC. If you fail, you are transformed into a cat for 1 minute, as if by a polymorph spell.",
+"You become invisible and silent for 1 minute.",
+"A gentle gust of wind blows outward from you. All creatures within 40 feet of you can feel it, but it otherwise does nothing."
+]
+},
+{
+"n": 39,
+"cells": [
+"You are vulnerable to Plants for 1 hour. Such creatures gain advantage when attacking you.",
+"Your Dexterity is increased by 2 for 1 day.",
+"Your Dexterity is increased by 2 for 1 minute."
+]
+},
+{
+"n": 40,
+"cells": [
+"You gain the service of an arcane eye for 1 hour that does not require concentration.",
+"You can detect the thoughts of 1 creature you can see within 30 feet of you for 1 minute.",
+"You immediately take 1d10 radiant damage."
+]
+},
+{
+"n": 41,
+"cells": [
+"You are protected from Celestials for 1 day. Such creatures cannot attack you or harm you unless they succeed on a Charisma saving throw against your spell save DC.",
+"For the next minute, all melee attacks you make with a non-magical weapon gain a +1 bonus to hit and to damage, and are considered magical for the purpose of overcoming resistances.",
+"One randomly-chosen non-magical item in your possession that weighs 1 pound or less vanishes and is forever gone."
+]
+},
+{
+"n": 42,
+"cells": [
+"You transform into a medium-sized potted plant for 1 minute, during which time you are considered petrified.",
+"Your Strength is decreased by 2 for 1 hour.",
+"Your Wisdom is increased by 2 for 1 minute."
+]
+},
+{
+"n": 43,
+"cells": [
+"3d6 random gems appear near you, worth 50gp each.",
+"You gain freedom of movement for 1 day.",
+"You immediately gain 10 temporary hit points."
+]
+},
+{
+"n": 44,
+"cells": [
+"All allies within 20 feet of you gain a +2 bonus to attack and damage rolls on any melee weapon attack they make within the next minute.",
+"Your Dexterity is decreased by 2 for 1 hour.",
+"3d6 silver pieces appear near you."
+]
+},
+{
+"n": 45,
+"cells": [
+"For 2d6 days, you glow bright yellow. You have disadvantage on Stealth checks and anyone trying to perceive you has advantage on their Perception check.",
+"You are affected by a faerie fire spell for 1 minute. You automatically fail the saving throw.",
+"You regain 5 hit points per round for 1 minute."
+]
+},
+{
+"n": 46,
+"cells": [
+"You stand at the center a circular wall of force with a radius of 15 feet. Any creature in any of the spaces covered by this wall must make a Dexterity saving throw against your spell DC or take 5d8 force damage. The wall remains for 1 minute.",
+"You are protected from Beasts for 1 hour. Such creatures cannot attack you or harm you unless they succeed a Charisma saving throw against your spell save DC.",
+"An imp appears near you. Make a Charisma saving throw against your spell save DC. If you succeed, the imp is subservient, otherwise, it is hostile. The imp, if not banished or defeated, vanishes after 1 hour."
+]
+},
+{
+"n": 47,
+"cells": [
+"All creatures within 20 feet of you are knocked prone.",
+"3d6 gold pieces appear near you.",
+"Your speed is increased by 10 feet for 1 minute."
+]
+},
+{
+"n": 48,
+"cells": [
+"You are vulnerable to Aberrations for 1 hour. Such creatures gain advantage when attacking you.",
+"For 2d6 hours, you have a faint pink glow. Anyone trying to perceive you has advantage on their Perception check.",
+"You gain proficiency on all Strength checks for the next hour, if you dont already have it."
+]
+},
+{
+"n": 49,
+"cells": [
+"For the next day, you are in the Border Ethereal near the location you were last in.",
+"You gain the ability to breath water for 1 day.",
+"Your Intelligence is increased by 2 for 1 minute."
+]
+},
+{
+"n": 50,
+"cells": [
+"All allies within 20 feet of you gain a +2 bonus to attack and damage rolls on any ranged weapon attack they make within the next minute.",
+"You and all creatures within 30 feet of you gain vulnerability to slashing damage for 1 minute.",
+"One randomly-chosen non-magical item in your possession that weighs 1 pound or less is duplicated."
+]
+},
+{
+"n": 51,
+"cells": [
+"You are at the center of a 10-foot radius antimagic field that negates all magic equal to or less than your level for 1 hour and does not require concentration.",
+"For the next minute, light and darkness quickly alternate around you in a 30-foot radius, creating a strobe effect. Sight-based creatures gain a -1 penalty on attack rolls against you and Perception checks against you, and you gain a +1 bonus to Stealth checks.",
+"Mushrooms sprout around you in a 5-foot radius and vanish after 1 minute. If one is harvested and eaten within this time, the creature must make a Constitution saving throw against your spell save DC. On a failed save, it takes 5d6 poison damage. On successful one, it gains 5d6 temporary hit points."
+]
+},
+{
+"n": 52,
+"cells": [
+"Make a Wisdom saving throw against your spell save DC. If you fail, you are transformed into a wolf for 1 minute, as if by a polymorph spell.",
+"All creatures within 20 feet of you must make a Strength saving throw against your spell save DC or be knocked prone.",
+"You can smell exceptionally well for 1 minute, gaining blindsight with a radius of 10 feet and advantage on all Perception checks related to odor."
+]
+},
+{
+"n": 53,
+"cells": [
+"You are protected from Elementals for one day. Such creatures cannot attack you or harm you unless they succeed on a Charisma saving throw against your spell save DC.",
+"You are protected from Undead for one hour. Such creatures cannot attack you or harm you unless they succeed on a Charisma saving throw against your spell save DC.",
+"Your feet sink into the ground, making you completely immobile for one minute. This has no effect if you were not standing on the ground when the spell was cast."
+]
+},
+{
+"n": 54,
+"cells": [
+"All of your hair permanently falls out. Only a spell such as remove curse can end this effect.",
+"For the next minute, you can pass through any solid, non-magical wall that is 6 or fewer inches thick.",
+"One random gem worth 100gp appears near you."
+]
+},
+{
+"n": 55,
+"cells": [
+"You gain the ability to speak one new language of your choice. However, you lose the ability to speak one language you already know.",
+"You are protected from Fiends for one hour. Such creatures cannot attack you or harm you unless they succeed on a Charisma save against your spell save DC.",
+"For the next minute, you have double vision. This gives you disadvantage on ranged attacks (including spell attacks) and Perception checks involving sight."
+]
+},
+{
+"n": 56,
+"cells": [
+"A 30-foot cube hypnotic pattern appears with you at the center. All creatures within the pattern must succeed on a Wisdom saving throw or fall asleep for 1 minute or until they take damage.",
+"You permanently gain one 1st-level spell slot but forget one cantrip that you already know. A spell such as remove curse can end this effect.",
+"You are surrounded by a faint, pleasant odor. You gain advantage on all Charisma checks you make within the next minute."
+]
+},
+{
+"n": 57,
+"cells": [
+"You permanently forget one cantrip. A spell such as remove curse can restore your memory.",
+"You immediately gain 15 temporary hit points.",
+"You lose proficiency on all skill checks for 1 minute."
+]
+},
+{
+"n": 58,
+"cells": [
+"You immediately take 2d10 psychic damage.",
+"All gold you are carrying is now silver.",
+"You gain freedom of movement for 1 minute."
+]
+},
+{
+"n": 59,
+"cells": [
+"You are vulnerable to Undead for 1 hour. Such creatures gain advantage when attacking you.",
+"For the next minute, you gain resistance to necrotic and radiant damage.",
+"You gain darkvision with a radius of 60 feet for 1 minute. If you already have darkvision, you lose it for 1 minute."
+]
+},
+{
+"n": 60,
+"cells": [
+"You transform into an iron statue of yourself for 1 minute, during which time you are considered petrified.",
+"You are at the center of a fog cloud spell which lasts for 1 minute.",
+"Approximately 100 gallons of water appear over your head and those within 10 feet of you, evenly distributed above everybody within the radius."
+]
+},
+{
+"n": 61,
+"cells": [
+"You gain an additional spell slot of your highest level for 1 week.",
+"Your Charisma is increased by 2 for 1 day.",
+"You gain a +1 to your AC for one minute."
+]
+},
+{
+"n": 62,
+"cells": [
+"If you die within the next minute, you come back to life as if by the reincarnate spell.",
+"You and all creatures within 30 feet of you gain vulnerability to lightning damage for 1 minute.",
+"You fall victim to a horrible cramp in both legs, reducing your speed by 10 feet for 1 hour."
+]
+},
+{
+"n": 63,
+"cells": [
+"You permanently gain one spell slot of one level below your highest-level spell slot, but lose one 1st-level spell slot. A spell such as remove curse can end this effect.",
+"You and all creatures within 30 feet of you gain vulnerability to force damage for 1 minute.",
+"The next spell you cast within the next hour uses a spell slot of one level lower than what it normally requires. If the spell is a spell of 1st level, you still must expend a spell slot to cast it."
+]
+},
+{
+"n": 64,
+"cells": [
+"All creatures that can perceive you must make a Wisdom saving throw against your spell save DC or be frightened of you.",
+"For the next minute, any creature you touch takes 2d6 lightning damage.",
+"For the next hour, you are unable to read as the letters all appeared jumbled."
+]
+},
+{
+"n": 65,
+"cells": [
+"You are vulnerable to Elementals for 1 hour. Such creatures gain advantage when attacking you.",
+"You gain blindsight with a radius of 60 feet for 1 minute.",
+"For the next day, everything you say must rhyme. If it doesnt, you take 1d6 psychic damage."
+]
+},
+{
+"n": 66,
+"cells": [
+"You are protected from Fey for 1 day. Such ceatures cannot attack you or harm you unless they succeed on a Charisma saving throw against your spell save DC.",
+"You are surrounded by a horrible, noxious odor for 1 minute. Anyone within 10 feet of you must make a Constitution saving throw or be stunned.",
+"During the next hour, you may re-roll any one save, attack roll, or skill check. If you do, you must take the new rolls result."
+]
+},
+{
+"n": 67,
+"cells": [
+"You gain the service of an arcane sword that does not require concentration until your next short or long rest.",
+"Your Charisma is decreased by 2 for 1 hour.",
+"You grow 1d6 inches in height. You gradually return to your original height over the course of 1 day."
+]
+},
+{
+"n": 68,
+"cells": [
+"You permanently gain one cantrip. A spell such as remove curse can end this effect.",
+"You gain the service of a phantom steed for 1 day.",
+"You immediately take 2d4 psychic damage."
+]
+},
+{
+"n": 69,
+"cells": [
+"All allies within 20 feet of you get gain a -2 penalty on attack and damage rolls for any melee attack they make in the next minute.",
+"You and all creatures within 30 feet of you gain vulnerability to acid damage for 1 minute.",
+"For the next hour, any time you make an ability check, roll 1d4 and subtract the result."
+]
+},
+{
+"n": 70,
+"cells": [
+"All allies within 20 feet of you heal up to 3d8 hit points.",
+"Your Wisdom is decreased by 2 for 1 hour.",
+"You gain the ability to speak with animals for one hour."
+]
+},
+{
+"n": 71,
+"cells": [
+"You lose the ability to see for 1 day. During this time, you have the blinded condition.",
+"Your speed is increased by 10 feet for 1 day.",
+"You get gain a -1 penalty to your AC for 1 minute."
+]
+},
+{
+"n": 72,
+"cells": [
+"You gain the service of a phantom steed for 1 week.",
+"You gain the ability to walk on water for 1 day.",
+"You gain the use of an unseen servant for 1 hour."
+]
+},
+{
+"n": 73,
+"cells": [
+"Make a Constitution saving throw against your spell save DC. If you fail, you are stunned for 1 minute.",
+"You and all creatures within 30 feet of you gain vulnerability to psychic damage for 1 minute.",
+"The next spell you cast within the hour uses a slot level one level higher than what it normally requires."
+]
+},
+{
+"n": 74,
+"cells": [
+"You transform into a stone statue of yourself for 1 minute, during which time you are considered petrified.",
+"One creature of your choice gets a +2 bonus to all attack rolls, damage rolls, and their armor class AC for 1 minute.",
+"A bad joke comes to mind and until you tell it (which takes an entire action), you suffer a Wisdom penalty of 1."
+]
+},
+{
+"n": 75,
+"cells": [
+"All creatures within 20 feet of you, including you, must make a Dexterity save against your spell save DC or be affected by a faerie fire spell.",
+"You lose proficiency in one randomly chosen skill, tool, or weapon type for 2d6 days.",
+"You hear a ringing in your ears for 1 minute. During this time, casting a spell that requires a verbal component requires a Constitution check against your spell save DC."
+]
+},
+{
+"n": 76,
+"cells": [
+"Permanently increase one ability score of your choice by 1 point. Permanently decrease a different ability score of your choice by 1 point. A spell such as remove curse can end this effect.",
+"All food and drink within 30 feet of you becomes putrid, spoiled, or rotten. Consuming this food deals 2d6 poison damage and causes the poisoned condition for 1 hour.",
+"You lose 1d6x5 pounds. You gradually return to your original weight over the course of 1 day."
+]
+},
+{
+"n": 77,
+"cells": [
+"You gain proficiency in one tool or weapon type you dont already have for 1 day.",
+"All silver you are carrying is now copper.",
+"Your clothes become dirty and filthy. Until you can change and/or clean your clothes, your Charisma is reduced by 1."
+]
+},
+{
+"n": 78,
+"cells": [
+"Make a Wisdom saving throw against your spell save DC. If you fail, you are transformed into a giant spider for 1 minute, as if by the polymorph spell.",
+"You and all creatures within 30 feet of you gain vulnerability to fire damage for 1 minute.",
+"You gain proficiency in Wisdom checks for the next hour, if you dont already have it."
+]
+},
+{
+"n": 79,
+"cells": [
+"Gain the sympathy effects of the antipathy/sympathy spell for 3d6 days.",
+"You lose proficiency in all skill rolls for 1d4 hours.",
+"You shrink 1d6 inches in height. You gradually return to your original height over the course of 1 day."
+]
+},
+{
+"n": 80,
+"cells": [
+"You are protected from Fiends for one day. Such creatures cannot attack you or harm you unless they succeed on a Charisma saving throw against your spell save DC.",
+"You are protected from Fey for one hour. Such creatures cannot attack you or harm you unless they succeed on a Charisma saving throw against your spell save DC.",
+"Your skin permanently darkens as if you have a tan, or if you are already dark-skinned, your skin becomes one shade lighter. A spell such as remove curse can end this effect."
+]
+},
+{
+"n": 81,
+"cells": [
+"All allies within 20 feet of you gain a -2 penalty to attack and damage rolls for any ranged attack they make within the next minute.",
+"For the next hour, any time you make an ability check, roll 1d6 and subtract the result.",
+"For 1 minute, one creature of your choice within 30 feet of you gains a -1 penalty to attack rolls, damage rolls, and their AC."
+]
+},
+{
+"n": 82,
+"cells": [
+"For one minute, any spell with a casting time of 1 action can be cast as a bonus action.",
+"For the next minute, you gain resistance to poison and psychic damage.",
+"For the next hour, any time you make an ability check, roll 1d4 and add the result."
+]
+},
+{
+"n": 83,
+"cells": [
+"Make a Wisdom saving throw against your spell save DC. If you fail, you are transformed into a giant rabbit for 1 minute, as if by the polymorph",
+"Youre feeling lucky. For the next hour, any time you make an ability check, roll 1d6 and add the result.",
+"If you cast a spell with a saving throw within the next minute, the target gains disadvantage on its saving throw."
+]
+},
+{
+"n": 84,
+"cells": [
+"The next time you cast a spell, do not roll on this chart.",
+"You immediately take 2d6 psychic damage.",
+"Your Strength is increased by 2 for 1 minute."
+]
+},
+{
+"n": 85,
+"cells": [
+"For the next day, you gain proficiency in all skills that you are not already proficient in.",
+"You gain proficiency in one skill of your choice that you're not already proficient in for one hour.",
+"One creature of your choice gains a +1 bonus to attack rolls, damage rolls, and its AC for 1 minute."
+]
+},
+{
+"n": 86,
+"cells": [
+"The next time you cast a spell, roll twice on this chart. Both effects will apply.",
+"Your Constitution is increased by 2 for 1 day.",
+"You immediately heal 2d10 hit points."
+]
+},
+{
+"n": 87,
+"cells": [
+"You are vulnerable to Fey for 1 hour. Such creatures gain advantage when attacking you.",
+"You and all creatures within 30 feet of you gain vulnerability to thunder damage for 1 minute.",
+"You gain proficiency on all Intelligence checks for the next hour, if you dont already have it."
+]
+},
+{
+"n": 88,
+"cells": [
+"You transform into an empty wooden chest for 1 minute, during which time you are considered petrified.",
+"You and all creatures within 30 feet of you gain vulnerability to cold damage for 1 minute.",
+"The power of your magic is strong! For the next hour, any spell you cast does not require a verbal component."
+]
+},
+{
+"n": 89,
+"cells": [
+"Gain the antipathy effects of the antipathy/sympathy spell for 3d6 days.",
+"You gain the ability to speak one language of your choice for 1 day.",
+"You gain 1d6x10 pounds. You gradually return to your original weight over the course of 1 day."
+]
+},
+{
+"n": 90,
+"cells": [
+"All creatures within 30 feet of you must make a Wisdom saving throw. Any creature immune to magical sleep automatically succeeds on its saving throw. Those that fail fall asleep for 1d6 minutes.",
+"You and all creatures within 30 feet of you gain vulnerability to radiant damage for 1 minute.",
+"You gain proficiency in all Dexterity checks for the next hour, if you dont already have it."
+]
+},
+{
+"n": 91,
+"cells": [
+"You are protected from Plants for 1 day. Such creatures cannot attack you or harm you unless they succeed on a Charisma saving throw against your spell save DC.",
+"You are protected from Celestials for 1 hour. Such creatures cannot attack you or harm you unless they succeed a on a Charisma saving throw against your spell save DC.",
+"Your fingernails and toenails grow to an uncomfortable length. Until you trim them, your Dexterity is reduced by 1 and your speed is reduced by 5 feet, even if youre not wearing shoes."
+]
+},
+{
+"n": 92,
+"cells": [
+"All your allies within 20 feet of you gain a +2 bonus to their AC for 1 minute.",
+"For the next minute, you are unable to cast any spell that causes damage of any type.",
+"You gain the effects of the blur spell for 1 minute, which does not require concentration to maintain."
+]
+},
+{
+"n": 93,
+"cells": [
+"The next time you fall below 0 hit points within the next month, you automatically fail your first death saving throw.",
+"You gain spider climb for 1 minute, and it does not require concentration to maintain.",
+"For the next hour, you appear to others to be the opposite gender."
+]
+},
+{
+"n": 94,
+"cells": [
+"You gain two spell slots at your second-highest level for 1 week.",
+"You immediately lose all unspent sorcery points and may not regain them until you have finished a long rest.",
+"You gain the service of a 2nd-level spiritual weapon for 1 minute."
+]
+},
+{
+"n": 95,
+"cells": [
+"For the next day, any time you make an ability check, roll 1d6 and add the result.",
+"You and all creatures within 30 feet of you gain vulnerability to poison damage for 1 minute.",
+"The power of your magic is strong! For the next hour, any spell you cast does not require a somatic component."
+]
+},
+{
+"n": 96,
+"cells": [
+"Make a Wisdom saving throw against your spell save DC. If you fail, you are transformed into a sheep for 1 minute, as if by the polymorph spell.",
+"You gain the ability to speak with animals for 1 day.",
+"You gain proficiency in all Constitution checks for the next hour, if you dont already have it."
+]
+},
+{
+"n": 97,
+"cells": [
+"All allies within 30 feet of you gain a -2 penalty to their AC for 1 minute.",
+"All food and drink within 30 feet of you is purified.",
+"Every inanimate object that isn't being worn or carried within 40 feet of you becomes enshrouded with shadows for 1 minute. Enshrouded objects are considered heavily obscured."
+]
+},
+{
+"n": 98,
+"cells": [
+"You are protected from Undead for 1 day. Such creatures cannot attack you or harm you unless they succeed on a Charisma saving throw against your spell save DC.",
+"You are protected from Aberrations for 1 hour. Such creatures cannot attack you or harm you unless they succeed on a Charisma savinng throw against your spell save DC.",
+"Your fingers become sore for 1 hour. During this time, you must succeed on a Dexterity saving throw against your spell save DC to cast a spell with a somatic component."
+]
+},
+{
+"n": 99,
+"cells": [
+"You jump forward in time exactly 1 minute, for 1 minute. From the perspective of everyone else, you cease to exist during that time.",
+"All your clothing and equipment teleports to the nearest open space at least 15 feet from you that you can see.",
+"You feel extremely nauseated. Make a Constitution saving throw against your spell save DC. If you fail, you must spend your next action throwing up."
+]
+},
+{
+"n": 100,
+"cells": [
+"All spells you cast within the next minute automatically fail.",
+"Your Constitution is decreased by 2 for 1 hour.",
+"You immediately lose one unspent sorcery point."
+]
+}
+]
+}
+]

@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { useBuiltin } from '../lib/datasets.js';
-import { PLAYABLE_RACES, CLASSES, FEATS } from '../lib/character.js';
+import { PLAYABLE_RACES, CLASSES, FEATS, raceImage } from '../lib/character.js';
+import ClassEmblem from '../components/ClassEmblem.jsx';
 import { LANGUAGES } from '../lib/languages.js';
 import { rarityLabel } from '../lib/dnd.js';
 import { Traits } from '../components/ui.jsx';
@@ -73,6 +74,7 @@ function Detail({ e }) {
     const r = e.race;
     return (
       <div onClick={(ev) => ev.stopPropagation()} style={{ cursor: 'auto' }}>
+        <img className="hero-art mt" src={raceImage(r.id)} alt={r.name} />
         <p className="mt">{r.description}</p>
         <Traits traits={r.traits} />
         {r.subraces?.length > 0 && <p><b>Sub-races:</b> {r.subraces.map((s) => s.name).join(', ')}</p>}
@@ -84,6 +86,7 @@ function Detail({ e }) {
     const c = e.cls;
     return (
       <div onClick={(ev) => ev.stopPropagation()} style={{ cursor: 'auto' }}>
+        <div className="mt"><ClassEmblem id={c.id} size={64} /></div>
         <p className="mt"><b>Saves:</b> {c.saves.join(', ')} · <b>Armor:</b> {c.armor.join(', ') || 'none'} · <b>Weapons:</b> {c.weapons.join(', ')}</p>
         <p><b>{c.subclassTitle}:</b> {c.subclasses.join(', ')}</p>
         {c.features.filter(([, n]) => n !== 'Ability Score Improvement').map(([l, n, t], i) => <div key={i} style={{ fontSize: '.88rem' }}><b>{l}. {n}</b> — {t}</div>)}

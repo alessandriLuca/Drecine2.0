@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import yaml from 'js-yaml';
 import { useCharacters } from '../lib/store.js';
-import { compute, newCharacter } from '../lib/character.js';
+import { compute, newCharacter, raceImage } from '../lib/character.js';
+import ClassEmblem from '../components/ClassEmblem.jsx';
 import { ABILITIES } from '../data/classes.js';
 import { fmt, download, readFile, uid } from '../lib/dnd.js';
 import ItemList from '../components/ItemList.jsx';
@@ -103,13 +104,14 @@ function PartyCard({ c, save, remove }) {
     <div className="pc-card">
       <div className="row spread">
         <div className="row">
-          {c.portrait && <img src={c.portrait} alt="" style={{ width: 48, height: 48, borderRadius: 8, objectFit: 'cover' }} />}
+          <img src={c.portrait || raceImage(d.race.id)} alt="" style={{ width: 52, height: 52, borderRadius: 8, objectFit: 'cover', objectPosition: 'top' }} />
           <div>
             <h3 style={{ margin: 0, color: 'var(--gold2)' }}>{c.name || 'Unnamed'}</h3>
             <small>{d.raceName} · {d.cls.name} {d.level}{c.player ? ` · ${c.player}` : ''}</small>
           </div>
         </div>
         <div className="row">
+          <ClassEmblem id={d.cls.id} size={36} />
           <a className="btn small" href={`#/builder?id=${c.id}`}>Sheet</a>
           <button className="btn small danger" onClick={() => window.confirm(`Remove ${c.name || 'this character'} from the party?`) && remove(c.id)}>✕</button>
         </div>

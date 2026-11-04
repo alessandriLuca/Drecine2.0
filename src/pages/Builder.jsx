@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import { useCharacters, useLocal, go } from '../lib/store.js';
 import {
   PLAYABLE_RACES, REVENANT, CLASSES, BACKGROUNDS, ARMORS, FEATS,
-  newCharacter, compute, raceAsiRules, getRace, getSub, getClass, getBackground, pendingChoices,
+  newCharacter, compute, raceAsiRules, raceImage, getRace, getSub, getClass, getBackground, pendingChoices,
 } from '../lib/character.js';
 import { ABILITIES, ABILITY_NAMES, SKILLS, ALIGNMENTS } from '../data/classes.js';
 import { LANGUAGE_NAMES } from '../lib/languages.js';
@@ -10,6 +10,7 @@ import { fmt, POINT_COST, STANDARD_ARRAY, roll4d6, rand, download, readFile, rea
 import { Field, ChipPicker, Count, Traits } from '../components/ui.jsx';
 import ItemList from '../components/ItemList.jsx';
 import CharacterSheet from '../components/CharacterSheet.jsx';
+import ClassEmblem from '../components/ClassEmblem.jsx';
 
 const STEPS = ['Basics', 'Race', 'Class', 'Abilities', 'Skills & Languages', 'Feats', 'Equipment & Story', 'Sheet'];
 
@@ -114,7 +115,11 @@ export default function Builder({ query }) {
 function Summary({ c, d, pending }) {
   return (
     <aside className="panel summary">
-      <div className="big">{c.name || 'Unnamed hero'}</div>
+      <div className="row" style={{ flexWrap: 'nowrap' }}>
+        <img src={c.portrait || raceImage(d.race.id)} alt="" style={{ width: 56, height: 56, borderRadius: 10, objectFit: 'cover', objectPosition: 'top' }} />
+        <div className="big">{c.name || 'Unnamed hero'}</div>
+        <ClassEmblem id={d.cls.id} size={40} />
+      </div>
       <small>{d.raceName} · {d.cls.name} {d.level}{c.subclass ? ` · ${c.subclass}` : ''}</small>
       <div className="grid g3 mt" style={{ gap: 6 }}>
         {ABILITIES.map((a) => (
@@ -189,16 +194,17 @@ function RaceStep({ c, set }) {
     <div className="stack">
       <div className="panel">
         <div className="row spread"><h2 style={{ margin: 0 }}>Choose a race</h2><input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search races…" style={{ maxWidth: 240 }} /></div>
-        <div className="race-list mt">
+        <div className="race-list cards mt">
           {list.map((r) => (
-            <button key={r.id} className={`race-item ${r.id === race.id ? 'on' : ''}`} onClick={() => pick(r.id)}>
-              {r.name}
-              <small className="muted">{asiText(r.asi) || 'see sub-race'}</small>
+            <button key={r.id} className={`race-item card ${r.id === race.id ? 'on' : ''}`} onClick={() => pick(r.id)}>
+              <img src={raceImage(r.id)} alt="" loading="lazy" />
+              <span className="cap">{r.name}<small className="muted">{asiText(r.asi) || 'see sub-race'}</small></span>
             </button>
           ))}
         </div>
       </div>
       <div className="panel">
+        <img className="hero-art" src={raceImage(race.id)} alt={race.name} />
         <h2>{race.name}</h2>
         <p className="muted" style={{ fontFamily: 'Libre Baskerville, serif', fontStyle: 'italic' }}>{race.description}</p>
         <div className="chips">
@@ -302,15 +308,16 @@ function ClassStep({ c, set, d }) {
         <h2>Choose a class</h2>
         <div className="race-list" style={{ maxHeight: 'none' }}>
           {CLASSES.map((k) => (
-            <button key={k.id} className={`race-item ${k.id === cls.id ? 'on' : ''}`} onClick={() => set({ classId: k.id, subclass: '', classSkills: [], expertise: [], improvements: [] })}>
-              {k.name}<small className="muted">d{k.hitDie} · {k.primary.join('/')}</small>
+            <button key={k.id} className={`race-item row ${k.id === cls.id ? 'on' : ''}`} style={{ flexWrap: 'nowrap', gap: 10 }} onClick={() => set({ classId: k.id, subclass: '', classSkills: [], expertise: [], improvements: [] })}>
+              <ClassEmblem id={k.id} size={40} />
+              <span>{k.name}<small className="muted">d{k.hitDie} · {k.primary.join('/')}</small></span>
             </button>
           ))}
         </div>
       </div>
       <div className="panel">
         <div className="row spread">
-          <h2 style={{ margin: 0 }}>{cls.name}</h2>
+          <div className="row"><ClassEmblem id={cls.id} size={72} /><h2 style={{ margin: 0 }}>{cls.name}</h2></div>
           <Field label="Level" style={{ width: 90 }}><input type="number" min="1" max="20" value={c.level} onChange={(e) => set({ level: Math.max(1, Math.min(20, Number(e.target.value) || 1)) })} /></Field>
         </div>
         <div className="grid g2 mt">

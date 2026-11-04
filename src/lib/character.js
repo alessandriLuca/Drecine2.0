@@ -51,6 +51,8 @@ export function newCharacter() {
   };
 }
 
+export const raceImage = (id) => `./img/races/${id}.jpg`;
+
 export const getRace = (c) => RACES.find((r) => r.id === c.raceId) || PLAYABLE_RACES[0];
 export const getSub = (c) => {
   const r = getRace(c);

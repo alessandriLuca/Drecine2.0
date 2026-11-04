@@ -1,4 +1,5 @@
-import { compute } from '../lib/character.js';
+import { compute, raceImage } from '../lib/character.js';
+import ClassEmblem from './ClassEmblem.jsx';
 import { ABILITIES, ABILITY_NAMES } from '../data/classes.js';
 import { fmt } from '../lib/dnd.js';
 
@@ -11,9 +12,9 @@ export default function CharacterSheet({ c }) {
   return (
     <div className="sheet">
       <div className="head">
-        {c.portrait ? <img className="portrait" src={c.portrait} alt="" /> : <div className="portrait" />}
+        <img className="portrait" src={c.portrait || raceImage(d.race.id)} alt="" />
         <div>
-          <div className="name">{c.name || 'Unnamed hero'}</div>
+          <div className="row" style={{ justifyContent: 'space-between' }}><div className="name">{c.name || 'Unnamed hero'}</div><ClassEmblem id={d.cls.id} size={52} /></div>
           <div className="meta">
             <div><span>Class &amp; level</span>{d.cls.name} {d.level}{c.subclass ? ` (${c.subclass})` : ''}</div>
             <div><span>Race</span>{d.raceName}{c.revenant ? ' (Revenant)' : ''}</div>

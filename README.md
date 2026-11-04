@@ -38,6 +38,8 @@ npm run build    # static site in dist/
 * `src/data/races.json` — generated from the races PDF with `python3 scripts/build_races.py Races.pdf`
   (needs `pdftotext`). Single-column pages are parsed automatically; sub-races laid out in
   several columns are described by hand in the script.
+* `public/img/races/*.jpg` — one illustration per race, extracted from the same PDF with
+  `python3 scripts/extract_race_images.py Races.pdf`. Class emblems are inline SVG (`src/components/ClassEmblem.jsx`).
 * `src/data/classes.js` — class definitions (hit die, proficiencies, skills, features by level,
   subclasses, spellcasting progression, backgrounds, armor table).
 * `src/data/feats.json` — from `data-src/feats.csv` via `scripts/build_feats.py`.

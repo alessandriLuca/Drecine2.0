@@ -229,3 +229,16 @@ tr.hl td { background: #4a3816; }
   .sheet { box-shadow: none; border-radius: 0; padding: 0; background: white; }
   .builder { display: block; }
 }
+
+/* ---------- artwork */
+.race-list.cards { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); max-height: 520px; }
+.race-item.card { padding: 0; overflow: hidden; display: flex; flex-direction: column; }
+.race-item.card img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: top; display: block; background: #251e19; }
+.race-item.card .cap { padding: 6px 8px; }
+.race-item small { display: block; }
+.hero-art { float: right; width: min(260px, 40%); max-height: 360px; object-fit: cover; object-position: top; border-radius: 10px; border: 1px solid var(--line); margin: 0 0 12px 16px; }
+@media (max-width: 560px) { .hero-art { float: none; width: 100%; margin: 0 0 12px; } }
+.strip { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 6px; }
+.strip img { height: 120px; width: 90px; object-fit: cover; object-position: top; border-radius: 8px; border: 1px solid var(--line); transition: transform .15s; }
+.strip img:hover { transform: translateY(-3px); border-color: var(--gold); }
+.sheet .portrait { object-position: top; }

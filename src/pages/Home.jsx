@@ -1,5 +1,6 @@
 import { useCharacters } from '../lib/store.js';
-import { RACES, CLASSES, FEATS } from '../lib/character.js';
+import { RACES, CLASSES, FEATS, PLAYABLE_RACES, raceImage } from '../lib/character.js';
+import ClassEmblem from '../components/ClassEmblem.jsx';
 
 export default function Home({ pages }) {
   const { characters } = useCharacters();
@@ -22,6 +23,12 @@ export default function Home({ pages }) {
           <span className="tag gold">{FEATS.length} feats</span>
         </div>
       </section>
+      <div className="strip mt">
+        {PLAYABLE_RACES.map((r) => <a key={r.id} href="#/builder" title={r.name}><img src={raceImage(r.id)} alt={r.name} loading="lazy" /></a>)}
+      </div>
+      <div className="row mt" style={{ justifyContent: 'center' }}>
+        {CLASSES.map((k) => <span key={k.id} title={k.name}><ClassEmblem id={k.id} size={48} /></span>)}
+      </div>
       <div className="grid g3 mt">
         {pages.map((p) => (
           <a key={p.path} className="tool-card" href={`#/${p.path}`}>
